@@ -52,9 +52,9 @@
         <div class="box-row">
           <div class="box-cell scrollable hover">
             <div class="box-inner">
-              <div class="p hidden-folded blue-50" style="background-image:url(images/bg.png); background-size:cover">
+              <div class="p hidden-folded blue-50" style="background-image:url(../images/bg.png); background-size:cover">
                 <div class="rounded w-64 bg-white inline pos-rlt">
-                  <img src="<?=Yii::app()->baseUrl.'/images/perfiles/no_disponible.jpg'?>" alt="" class="img-responsive rounded" style="border:3px solid #ccc;">
+                  <img src="../images/a0.jpg" alt="" class="img-responsive rounded" style="border:3px solid #ccc;">
                 </div>
                 <a class="block m-t-sm" href="#">
                   <span class="block font-bold"><?php echo $datos->username; ?></span>
