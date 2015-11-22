@@ -63,11 +63,7 @@ class PartiesController extends Controller
 			$this->render('index', array('fiestas'=>$fiestas));
 		}
 	}
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> a907804c8f8fbda614923ac083b6fcac09f416d2
 	public function actionFondeos() {
 		$this->render('fondeos', array());
 	}
