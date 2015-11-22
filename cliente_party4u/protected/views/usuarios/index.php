@@ -14,7 +14,7 @@
 Yii::app()->clientScript->registerScript(
 	'scritpt-contenido-table',
 	'$.ajax({
-		url: "http://'.$this->url_server.'/server_party4u/user/admin/index.html",
+		url: "http://'.$this->url_server.'server_party4u/user/admin/index.html",
 		type: "post",
 		dataType: "jsonp",
 		data: {user_id:'.Yii::app()->user->id.'},
