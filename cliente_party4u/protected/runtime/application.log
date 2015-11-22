@@ -7364,3 +7364,25 @@ Stack trace:
 REQUEST_URI=/hackbanero/cliente_party4u/site/images/bg.png
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/site/index.html
 ---
+2015/11/22 10:10:22 [error] [php] Undefined variable: model (C:\xampp\htdocs\www\hackbanero\cliente_party4u\protected\modules\user\controllers\LoginController.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(287): LoginController->runAction()
+#1 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#2 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(283): LoginController->run()
+#3 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\www\hackbanero\cliente_party4u\index.php(14): CWebApplication->run()
+REQUEST_URI=/www/hackbanero/cliente_party4u/user/login.html
+in C:\xampp\htdocs\www\hackbanero\cliente_party4u\protected\modules\user\controllers\LoginController.php (25)
+in C:\xampp\htdocs\www\hackbanero\cliente_party4u\index.php (14)
+2015/11/22 10:21:37 [error] [php] Undefined variable: model (C:\xampp\htdocs\www\hackbanero\cliente_party4u\protected\modules\user\controllers\LoginController.php:25)
+Stack trace:
+#0 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(287): LoginController->runAction()
+#1 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(266): LoginController->runActionWithFilters()
+#2 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(283): LoginController->run()
+#3 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\xampp\htdocs\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\xampp\htdocs\www\hackbanero\cliente_party4u\index.php(14): CWebApplication->run()
+REQUEST_URI=/www/hackbanero/cliente_party4u/user/login.html
+in C:\xampp\htdocs\www\hackbanero\cliente_party4u\protected\modules\user\controllers\LoginController.php (25)
+in C:\xampp\htdocs\www\hackbanero\cliente_party4u\index.php (14)
