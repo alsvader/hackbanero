@@ -31,7 +31,7 @@
 									<div class = "progress-bar progress-bar-info" style="width:30%">Ha juntado $800,00 MXN</div>
 								</div>
 							</div>
-							<button class = "col-xs-10 col-xs-offset-1 md-btn btn-lg md-raised m-b btn-fw green">¡Fondear aquí!</button>
+							<button id="fondear" class = "col-xs-10 col-xs-offset-1 md-btn btn-lg md-raised m-b btn-fw green">¡Fondear aquí!</button>
 						</div>
 					</div>
 				</div>
@@ -39,5 +39,11 @@
 		</div>
 	</div>
 </div>
+
+<script type="text/javascript">
+	document.getElementById('fondear').addEventListener('click', function () {
+		this.disabled = true;
+	});
+</script>
 
 
