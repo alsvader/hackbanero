@@ -8,6 +8,7 @@ class UsuariosController extends Controller
 	 */
 	public $layout='//layouts/column2';
 	public $url_server="http://party4u.herokuapp.com/";
+	public $uniqueid = "Usuarios";
 	/**
 	 * @return array action filters
 	 */
@@ -62,6 +63,7 @@ class UsuariosController extends Controller
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
 	public function actionCreate(){
+		$this->uniqueid = "Agregar Usuario";
 		$datos = User::model()->findByPk(Yii::app()->user->id);
 		$this->render('create',array('datos'=>$datos));
 	}
@@ -108,6 +110,7 @@ class UsuariosController extends Controller
 	 * Lists all models.
 	 */
 	public function actionIndex(){
+		$this->uniqueid = "Lista de Usuarios";
 		if(isset($_POST['data'])){
 			$this->renderPartial('_index', array('usuarios'=>$_POST['data']['usuarios']));
 		}else{

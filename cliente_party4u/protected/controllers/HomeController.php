@@ -8,6 +8,7 @@ class HomeController extends Controller
 	 */
 	public $url_server = "localhost";
 	public $layout='//layouts/column2';
+	public $uniqueid = "Portada";
 	/**
 	 * @return array action filters
 	 */

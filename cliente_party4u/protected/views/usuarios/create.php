@@ -1,20 +1,20 @@
 <div class="box-row">
 	<div class="box-cell">
 		<div class="box-inner padding">
-			<div class="row row-centered">
-				<div class="col-sm-8 col-centered">
+			<div class="row">
+				<div class="col-sm-8">
 					<div class="card" ng-controller="MDInputCtrl" >
 					  <div class="card-heading">
 					    <h2>Alta Usuario</h2>
 					  </div>
 					  <div class="card-body">
 					  	<?php echo $this->renderPartial('_form', array()); ?>
-					    <div class="row row-centered">
-							<div class="col-md-6">
-								<button class="btn btn-primary btn-md btn-add-user"><i class="fa fa-user-plus"></i> Agregar Usuario</button>
+					    <div class="row">
+							<div class="col-md-6 pull-left">
+								<button class="btn btn-primary btn-sm btn-add-user"><i class="fa fa-user-plus"></i> Agregar</button>
 							</div>
 							<div class="col-md-6">
-								<button class="btn btn-default btn-md"><i class="fa fa-arrow-circle-left"></i> Regresar</button>
+								<button class="btn btn-default btn-sm"><i class="fa fa-arrow-circle-left"></i> Regresar</button>
 							</div>
 						</div>
 					  </div>
