@@ -15,9 +15,10 @@
 								<p>Necesita: $<?=$fiesta->min_cuota;?>.00</p>
 								<p>Monto recaudado: $200</p>
 								<div class = "progress">
-									<div class = "progress-bar progress-bar-info" style="width:30%">30%</div>
+									<div id = "barra" class = "progress-bar progress-bar-info" style="width:30%">30%</div>
 								</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.....</p>
+								<button id = "fondear" class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">¡Fondea aquí!</button>
 								<button class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">Ver</button>
 							</div>
 						</div>
@@ -109,3 +110,10 @@
 	</div>
 </div>
 
+<script type="text/javascript">
+	document.getElementById('fondear').addEventListener('click', function () {
+		this.disabled = true;
+		document.getElementById('barra').style.width = "70%";
+		document.getElementById('barra').innerHTML = "70%";
+	});
+</script>
