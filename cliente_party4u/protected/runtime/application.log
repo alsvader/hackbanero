@@ -6736,6 +6736,7 @@ REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/logo.png
 >>>>>>> b8af127beecef1590fe921cfa222e209059d7ece
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:25:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -6776,10 +6777,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/bg.png
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:25:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -6798,10 +6809,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/logo.png
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:28:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -6809,10 +6830,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/bg.png
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:28:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -6853,10 +6884,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a3.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:29:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -6897,10 +6938,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a2.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7040,10 +7091,31 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:06:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a1.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+2015/11/22 11:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a1.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+<<<<<<< HEAD
 2015/11/22 11:30:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7139,10 +7211,31 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a3.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+2015/11/22 11:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a2.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7161,10 +7254,31 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:06:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/logo.png
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+2015/11/22 11:06:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/bg.png
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7172,10 +7286,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a3.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7194,10 +7318,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a1.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7216,10 +7350,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a2.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:32:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7843,10 +7987,97 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('parties/images/...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/logo.png
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+2015/11/22 11:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('usuarios/images...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/bg.png
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+2015/11/22 11:10:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('home/images/log...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/home/images/logo.png
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/home/index.html
+---
+2015/11/22 11:10:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('home/images/a3....')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/home/images/a3.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/home/index.html
+---
+2015/11/22 11:10:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('home/images/a1....')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/home/images/a1.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/home/index.html
+---
+2015/11/22 11:10:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('home/images/a2....')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/home/images/a2.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/home/index.html
+---
+2015/11/22 11:10:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('home/images/bg....')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/home/images/bg.png
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/home/index.html
+---
+2015/11/22 11:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('parties/images/...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/parties/images/logo.png
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:43:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7876,10 +8107,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('parties/images/...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('parties/images/...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/parties/images/a1.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:45:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7898,10 +8139,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('parties/images/...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('parties/images/...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/parties/images/a2.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:45:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7920,10 +8171,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('parties/images/...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:10:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('parties/images/...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/parties/images/bg.png
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -7953,10 +8214,20 @@ Stack trace:
 #2 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('parties/images/...')
 #3 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
 #4 C:\AppServ\www\hackbanero\cliente_party4u\index.php(14): CApplication->run()
+=======
+2015/11/22 11:10:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('parties/images/...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/parties/images/a3.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 ---
+<<<<<<< HEAD
 2015/11/22 11:45:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\cliente_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('images')
@@ -8110,4 +8381,49 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/hackbanero/cliente_party4u/usuarios/images/a2.jpg
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/create.html
+=======
+2015/11/22 11:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('siguiendo/image...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/siguiendo/images/logo.png
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/siguiendo/index.html
+---
+2015/11/22 11:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('siguiendo/image...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/siguiendo/images/a2.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/siguiendo/index.html
+---
+2015/11/22 11:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('siguiendo/image...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/siguiendo/images/a1.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/siguiendo/index.html
+---
+2015/11/22 11:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "images" solicitada.' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php:484
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CController.php(271): CController->missingAction('images')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('images')
+#2 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('siguiendo/image...')
+#3 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/siguiendo/images/a3.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/siguiendo/index.html
+>>>>>>> c04ae733ba23b4d722d3facb6d50f117958c0cf9
 ---

@@ -182,7 +182,7 @@
                 <a href>
                   <i class="pull-right up"></i> 
                   <i class="icon mdi-action-lock i-20"></i>
-                  <span class="font-normal">Cambair contraseña</span>
+                  <span class="font-normal">Cambiar contraseña</span>
                 </a>
               </li>
               <li class="divider"></li>
