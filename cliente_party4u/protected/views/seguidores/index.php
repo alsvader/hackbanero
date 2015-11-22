@@ -1,4 +1,4 @@
-<h1 class = "text-center">Siguiendo</h1>
+<h1 class = "text-center">Seguidores</h1>
 <div class = "row">
 	<div class = "col-xs-10 col-xs-offset-1">
 		<div class = "panel panel-card">
