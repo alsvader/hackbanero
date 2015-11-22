@@ -42,7 +42,7 @@ Yii::app()->clientScript->registerScript(
     '$("input").required=true;$("body").on("click",".iniciar",function(){
         $(".message").hide();
         $.ajax({
-            url: "http://'.$_SERVER['SERVER_NAME'].'/hackbanero/cliente_party4u/user/login.html",
+            url: "http://'.$_SERVER['SERVER_NAME'].'/cliente_party4u/user/login.html",
             type: "post",
             dataType: "jsonp",
             data: $("#form-login").serialize(),
