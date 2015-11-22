@@ -3,13 +3,125 @@
 		<div class="box-inner padding">
 			<div class="row row-centered">
 				<div class="col-sm-4 col-sm-12 col-centered">
+					<h5>Fiestas Próximas</h5>
+					<div class="md-list md-whiteframe-z0 bg-white m-b">
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a0.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a1.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a2.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a3.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a4.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a7.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+			    	</div>
 				</div>
 				<div class="col-sm-4 col-sm-12 col-centered">
+					<h5>Fiestas de tus Amigos</h5>
+					<div class="md-list md-whiteframe-z0 bg-white m-b">
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a0.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a1.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a2.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a3.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a4.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+				        <div class="md-list-item">
+				          <div class="md-list-item-left">
+				            <img src="images/a7.jpg" class="w-full circle">
+				          </div>
+				          <div class="md-list-item-content">
+				            <h3 class="text-md">Brunch this weekend?</h3>
+				            <small class="font-thin">Min Li Chan</small>
+				          </div>
+				        </div>
+			    	</div>
 				</div>
 				<div class="col-sm-4 col-sm-12 col-centered">
-				</div>
-				<div class="col-sm-4 col-sm-12 col-centered">
-					<div class="card blue">
+					<div class="card pink">
 				        <div class="card-heading">
 				          <h2 class="font-thin">Seguidores</h2>
 				          <small>Estas personas te están siguiendo</small>
@@ -30,13 +142,45 @@
 				        <div class="card-divider"></div>
 				        <div class="card-body">
 				          <a href class="m-r-xs inline">
-				            <img src="images/a4.jpg" class="w-40 img-circle">
+				            <img src="<?=Yii::app()->baseUrl;?>/images/a4.jpg" class="w-40 img-circle">
 				          </a>
 				          <a href class="m-r-xs inline">
-				            <img src="images/a5.jpg" class="w-40 img-circle">
+				            <img src="<?=Yii::app()->baseUrl;?>/images/a5.jpg" class="w-40 img-circle">
 				          </a>
 				          <a href class="m-r-xs inline">
-				            <img src="images/a6.jpg" class="w-40 img-circle">
+				            <img src="<?=Yii::app()->baseUrl;?>/images/a6.jpg" class="w-40 img-circle">
+				          </a>
+				          <a class="btn btn-rounded btn-info">99+</a>
+				        </div>
+				    </div>
+					<div class="card green">
+				        <div class="card-heading">
+				          <h2 class="font-thin">Siguiendo</h2>
+				          <small>Tus anfitriones favoritos</small>
+				        </div>
+				        <!--<div class="card-tools">
+				          <ul class="list-inline">
+				            <li class="dropdown">
+				              <a md-ink-ripple data-toggle="dropdown" class="md-btn md-flat md-btn-circle">
+				                <i class="mdi-navigation-more-vert text-md"></i>
+				              </a>
+				              <ul class="dropdown-menu dropdown-menu-scale pull-right pull-up top text-color">
+				                <li><a href>Action</a></li>
+				                <li><a href>Another action</a></li>
+				              </ul>
+				            </li>
+				          </ul>
+				        </div>-->
+				        <div class="card-divider"></div>
+				        <div class="card-body">
+				          <a href class="m-r-xs inline">
+				            <img src="<?=Yii::app()->baseUrl;?>/images/a4.jpg" class="w-40 img-circle">
+				          </a>
+				          <a href class="m-r-xs inline">
+				            <img src="<?=Yii::app()->baseUrl;?>/images/a5.jpg" class="w-40 img-circle">
+				          </a>
+				          <a href class="m-r-xs inline">
+				            <img src="<?=Yii::app()->baseUrl;?>/images/a6.jpg" class="w-40 img-circle">
 				          </a>
 				          <a class="btn btn-rounded btn-info">99+</a>
 				        </div>
