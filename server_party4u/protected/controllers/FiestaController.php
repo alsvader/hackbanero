@@ -66,10 +66,20 @@ class FiestaController extends Controller
 		if(isset($_POST['Fiesta'])){
 			
 			$model = new Fiesta();
-			$model->attributes = $_POST['Fiesta'];
+			$model->= $_POST['Fiesta'];
+			if ($model->save()) {
+				$result=array('correct'=>true,'error'=>false,'msg'=>'success');
+			} else {
+				$data->password=$_POST['User']['password'];
+				$result=array('correct'=>false,'error'=>true,'msg'=>'save_invalid');
+			}
+
+			#$result=array('correct'=>true,'error'=>false,'msg'=>'success');
+			$data = array('fiesta'=>$model);
+			$json = CJSON::encode(array('result'=>$result,'data'=>$data));
 
 		}else{
-			
+			$json = CJSON::encode(array('result'=>array('correct'=>false,'error'=>true,'msg'=>'request_invalid'),'data'=>null));
 		}
 		Yii::app()->end($_GET['callback']."(".$json.")",true);
 	}

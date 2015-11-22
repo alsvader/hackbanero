@@ -674,3 +674,78 @@ Stack trace:
 REQUEST_URI=/hackbanero/server_party4u/fiesta/index.html?callback=jQuery21404276282020035205_1448185507910
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 ---
+2015/11/22 04:58:47 [warning] [application] Failed to set unsafe attribute "maximo_participantes" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:58:47 [warning] [application] Failed to set unsafe attribute "min_cuta" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:58:47 [warning] [application] Failed to set unsafe attribute "user_id" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:58:47 [error] [php] Creating default object from empty value (/var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php:73)
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): FiestaController->runAction()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): FiestaController->filterAccessControl()
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): FiestaController->runActionWithFilters()
+#7 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): FiestaController->run()
+#8 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/hackbanero/server_party4u/index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/fiesta/create.html?callback=jQuery21404778492860496044_1448189918336
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (73)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:11 [warning] [application] Failed to set unsafe attribute "maximo_participantes" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:11 [warning] [application] Failed to set unsafe attribute "min_cuta" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:11 [warning] [application] Failed to set unsafe attribute "user_id" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:11 [error] [php] Creating default object from empty value (/var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php:73)
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): FiestaController->runAction()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): FiestaController->filterAccessControl()
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): FiestaController->runActionWithFilters()
+#7 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): FiestaController->run()
+#8 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/hackbanero/server_party4u/index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/fiesta/create.html?callback=jQuery21407343074949458241_1448189942877
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (73)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:49 [warning] [application] Failed to set unsafe attribute "maximo_participantes" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:49 [warning] [application] Failed to set unsafe attribute "min_cuta" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:49 [warning] [application] Failed to set unsafe attribute "user_id" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:49 [error] [php] Creating default object from empty value (/var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php:73)
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): FiestaController->runAction()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): FiestaController->filterAccessControl()
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): FiestaController->runActionWithFilters()
+#7 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): FiestaController->run()
+#8 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/hackbanero/server_party4u/index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/fiesta/create.html?callback=jQuery21409149492136202753_1448189951694
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (73)
+in /var/www/hackbanero/server_party4u/index.php (14)

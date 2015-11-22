@@ -17,19 +17,21 @@
 Yii::app()->clientScript->registerScript('crear_usuario','
 	$("body").on("click","#save", function(){
 		$.ajax({
-			url: "http://'.$this->url_server.'/server_party4u/fiesta/create.html",
+			url: "http://'.$this->url_server.'/hackbanero/server_party4u/fiesta/create.html",
 			type: "post",
 			dataType: "jsonp",
 			data: $("#form-party").serialize(),
 			success: function(data){
 				if(data.result.correct){
+					alert("se guardo correctamente");
 					/*$("#data-loading").delay(1600).fadeOut();
 					$("#box-redactar-solicitud").delay(2500).slideUp(500);
 					$("#box-archivos-solicitud").delay(2650).slideDown(1000);
-					$("#value").attr("data-link",data.data.user.id);*/
+					$("#value").attr("data-link",data.data.user.id);
 					//StartContador(data.data.user.id);
-					StartContador();
+					StartContador();*/
 				}else{
+					alert("alert");
 					$("#data-loading").delay(1000).fadeOut();
 					window.setTimeout(function(){$("#box-redactar-solicitud").addClass("box-danger");}, 1100);
 				}
