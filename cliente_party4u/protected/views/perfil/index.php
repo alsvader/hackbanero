@@ -12,10 +12,11 @@
                 <div class="m-b m-t-sm h2">
                   <span class="">David M.</span>
                 </div>
-                <a class="btn btn-sm btn-success m-b p-h no-border waves-effect">Edit</a>
+                <!--<a class="btn btn-sm btn-success m-b p-h no-border waves-effect">Edit</a>-->
                 <p>
                   I am designing something.
                 </p>
+                <button class="md-btn md-raised m-b btn-fw blue">Seguir</button>
               </div>
               <div class="p">
                 <p>Acerda de mí</p>
