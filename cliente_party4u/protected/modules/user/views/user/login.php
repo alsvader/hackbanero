@@ -35,49 +35,14 @@
     </div>
   </div>
 </div>
-<?php /* ?>
-<div class="login-box">
-  <div class="login-logo">
-    <a href="#">Sistema-<b>GARRRRRRRRRR</b></a>
-  </div>
-  <div class="login-box-body">
-    <p class="login-box-msg">Para acceder al sistema escriba sus datos</p>
-    <div class="callout callout-danger message" style="display:none;">
-        <p>Verifique su usuario y contraseña</p>
-    </div>
-    <form id="form-login" method="post">
-      <div class="form-group has-feedback">
-        <input type="text" class="form-control" placeholder="Nombre De Usuario" name="UserLogin[username]" required>
-        <span class="glyphicon glyphicon-user form-control-feedback"></span>
-      </div>
-      <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Contraseña" name="UserLogin[password]" required>
-        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-      </div>
-      <div class="row">
-        <div class="col-xs-8">
-          <div class="checkbox icheck">
-            <label>
-              <input type="checkbox" value="1" name="UserLogin[rememberMe]"> No cerrar sesion
-            </label>
-          </div>
-        </div>
-        <div class="col-xs-4">
-          <button type="button" class="btn btn-primary btn-block btn-flat iniciar">Iniciar</button>
-        </div>
-      </div>
-    </form>
-    <a href="#">He olvidado mi contraseña</a><br>
-  </div>
-</div>
-<?php */ ?>
+
 <?php
 Yii::app()->clientScript->registerScript(
     'auth-login',
     '$("input").required=true;$("body").on("click",".iniciar",function(){
         $(".message").hide();
         $.ajax({
-            url: "http://'.$_SERVER['SERVER_NAME'].'/cliente_party4u/user/login.html",
+            url: "http://'.$_SERVER['SERVER_NAME'].'/hackbanero/cliente_party4u/user/login.html",
             type: "post",
             dataType: "jsonp",
             data: $("#form-login").serialize(),

@@ -1,593 +1,405 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AdminLTE 2 | Dashboard</title>
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.5 -->
-    <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/bootstrap/css/bootstrap.min.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <!-- jvectormap -->
-    <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/dist/css/AdminLTE.min.css">
-    <!-- AdminLTE Skins. Choose a skin from the css/skins
-         folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/dist/css/skins/_all-skins.min.css">
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Party4U</title>
+  <meta name="description" content="app, web app, responsive, responsive layout, admin, admin panel, admin dashboard, flat, flat ui, ui kit, AngularJS, ui route, charts, widgets, components" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/assets/animate.css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/assets/font-awesome/css/font-awesome.css" type="text/css" />
+  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/waves/dist/waves.css" type="text/css" />
+  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/material-design-icons.css" type="text/css" />
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <style type="text/css">
-      .row-centered {
-          text-align:center;
-      }
-      .col-centered {
-          display:inline-block;
-          float:none;
-          /* reset the text-align */
-          text-align:left;
-          /* inline-block space fix */
-          margin-right:-4px;
-      }
-      .z-shadow-toolbar{
-        box-shadow: 0px 5px 10px gray;
-      }
-      .z-shadow-0{
-        box-shadow: 0px 0px 0px gray;
-      }
-      .z-shadow-1{
-        box-shadow: 5px 5px 15px gray;
-      }
-      .z-shadow-2{
-        box-shadow: 10px 10px 20px gray;
-      }
-      .z-shadow-3{
-        box-shadow: 15px 15px 25px gray;
-      }
-    </style>
-  </head>
-  <?php $datos = User::model()->findByPk(Yii::app()->user->id); ?>
-  <body class="hold-transition skin-blue sidebar-mini" id="body">
-    <div class="wrapper">
-      <header class="main-header">
+  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/bootstrap/dist/css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/font.css" type="text/css" />
+  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/app.css" type="text/css" />
 
-        <!-- Logo -->
-        <a href="#" class="logo">
-          <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>GAR</b></span>
-          <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg">Sistema-<b>GAR</b></span>
-        </a>
+</head>
+<?php $datos= User::model()->findByPk(Yii::app()->user->id);?>
+<body>
+<div class="app">
+  
 
-        <!-- Header Navbar: style can be found in header.less -->
-        <nav class="navbar navbar-static-top z-shadow-toolbar" role="navigation">
-          <!-- Sidebar toggle button-->
-          <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-            <span class="sr-only">Toggle navigation</span>
+  
+  <!-- aside -->
+  <aside id="aside" class="app-aside modal fade folded" role="menu">
+    <div class="left">
+      <div class="box bg-white">
+        <div class="navbar md-whiteframe-z1 no-radius blue">
+            <!-- brand -->
+            <a class="navbar-brand">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" style="
+                    width: 24px; height: 24px;">
+                  <path d="M 50 0 L 100 14 L 92 80 Z" fill="rgba(139, 195, 74, 0.5)"></path>
+                  <path d="M 92 80 L 50 0 L 50 100 Z" fill="rgba(139, 195, 74, 0.8)"></path>
+                  <path d="M 8 80 L 50 0 L 50 100 Z" fill="#f3f3f3"></path>
+                  <path d="M 50 0 L 8 80 L 0 14 Z" fill="rgba(220, 220, 220, 0.6)"></path>
+                </svg>
+              <img src="images/logo.png" alt="." style="max-height: 36px; display:none">
+              <span class="hidden-folded m-l inline">Party4U</span>
+            </a>
+            <!-- / brand -->
+        </div>
+        <div class="box-row">
+          <div class="box-cell scrollable hover">
+            <div class="box-inner">
+              <div class="p hidden-folded blue-50" style="background-image:url(images/bg.png); background-size:cover">
+                <div class="rounded w-64 bg-white inline pos-rlt">
+                  <img src="images/a0.jpg" class="img-responsive rounded">
+                </div>
+                <a class="block m-t-sm" href="#">
+                  <span class="block font-bold"><?php echo $datos->username; ?></span>
+                  <?php echo $datos->email; ?>
+                </a>
+              </div>
+              <div id="nav">
+                <nav ui-nav>
+                  <ul class="nav">
+                      <li>
+                      <a md-ink-ripple href="ui.chart.html">
+                        <i class="pull-right up"></i> 
+                        <i class="icon mdi-action-home i-20"></i>
+                        <span class="font-normal">Inicio</span>
+                      </a>
+                    </li>
+                      <li>
+                      <a md-ink-ripple href="ui.chart.html">
+                        <i class="pull-right up"></i> 
+                        <i class="icon mdi-social-cake i-20"></i>
+                        <span class="font-normal">Parties</span>
+                      </a>
+                    </li>
+                      <li>
+                      <a md-ink-ripple href="ui.chart.html">
+                        <i class="pull-right up"></i> 
+                        <i class="icon mdi-editor-attach-money i-20"></i>
+                        <span class="font-normal">Fondeos</span>
+                      </a>
+                    </li>
+                      <li>
+                      <a md-ink-ripple href="ui.chart.html">
+                        <i class="pull-right up"></i> 
+                        <i class="icon mdi-action-favorite i-20"></i>
+                        <span class="font-normal">Siguiendo</span>
+                      </a>
+                    </li>
+                      <li>
+                      <a md-ink-ripple href="ui.chart.html">
+                        <i class="pull-right up"></i> 
+                        <i class="icon mdi-action-stars i-20"></i>
+                        <span class="font-normal">Seguidores</span>
+                      </a>
+                    </li>
+                      <?php if (Yii::app()->user->isAdmin()) { ?>
+                      <li>
+                      <a md-ink-ripple href="ui.chart.html">
+                        <i class="pull-right up"></i> 
+                        <i class="icon mdi-social-group i-20"></i>
+                        <span class="font-normal">Usuarios</span>
+                      </a>
+                    </li>
+                    <?php } ?>
+                  </ul>
+                </nav>
+              </div>
+              <div id="account" class="hide m-v-xs">
+                <nav>
+                  <ul class="nav">
+                    <li>
+                      <a md-ink-ripple href="page.profile.html">
+                        <i class="icon mdi-action-perm-contact-cal i-20"></i>
+                        <span>My Profile</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a md-ink-ripple href="page.settings.html">
+                        <i class="icon mdi-action-settings i-20"></i>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a md-ink-ripple href="lockme.html">
+                        <i class="icon mdi-action-exit-to-app i-20"></i>
+                        <span>Logout</span>
+                      </a>
+                    </li>
+                    <li class="m-v-sm b-b b"></li>
+                    <li>
+                      <div class="nav-item" ui-toggle-class="folded" target="#aside">
+                        <label class="md-check">
+                          <input type="checkbox">
+                          <i class="purple no-icon"></i>
+                          <span class="hidden-folded">Folded aside</span>
+                        </label>
+                      </div>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <!-- / aside -->
+  
+
+
+  <!-- content -->
+  <div id="content" class="app-content" role="main">
+    <div class="box">
+          <!-- Content Navbar -->
+    <div class="navbar md-whiteframe-z1 no-radius blue">
+      <!-- Open side - Naviation on mobile -->
+      <a md-ink-ripple  data-toggle="modal" data-target="#aside" class="navbar-item pull-left visible-xs visible-sm"><i class="mdi-navigation-menu i-24"></i></a>
+      <!-- / -->
+      <!-- Page title - Bind to $state's title -->
+      <div class="navbar-item pull-left h4">Party4U</div>
+      <!-- / -->
+      <!-- Common tools -->
+      <ul class="nav nav-sm navbar-tool pull-right">
+        <li class="dropdown">
+          <a md-ink-ripple data-toggle="dropdown">
+            <i class="mdi-action-settings i-24"></i>
           </a>
-          <!-- Navbar Right Menu -->
-          <div class="navbar-custom-menu">
-            <ul class="nav navbar-nav">
-              <?php /* ?>
-              <li class="dropdown messages-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <i class="fa fa-envelope-o"></i>
-                  <span class="label label-success">4</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="header">You have 4 messages</li>
-                  <li>
-                    <!-- inner menu: contains the actual data -->
-                    <ul class="menu">
-                      <li><!-- start message -->
-                        <a href="#">
-                          <div class="pull-left">
-                            <img src="<?=Yii::app()->baseUrl;?>/assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-                          </div>
-                          <h4>
-                            Support Team
-                            <small><i class="fa fa-clock-o"></i> 5 mins</small>
-                          </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li><!-- end message -->
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <img src="<?=Yii::app()->baseUrl;?>/assets/dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
-                          </div>
-                          <h4>
-                            AdminLTE Design Team
-                            <small><i class="fa fa-clock-o"></i> 2 hours</small>
-                          </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <img src="<?=Yii::app()->baseUrl;?>/assets/dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
-                          </div>
-                          <h4>
-                            Developers
-                            <small><i class="fa fa-clock-o"></i> Today</small>
-                          </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <img src="<?=Yii::app()->baseUrl;?>/assets/dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
-                          </div>
-                          <h4>
-                            Sales Department
-                            <small><i class="fa fa-clock-o"></i> Yesterday</small>
-                          </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <div class="pull-left">
-                            <img src="<?=Yii::app()->baseUrl;?>/assets/dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
-                          </div>
-                          <h4>
-                            Reviewers
-                            <small><i class="fa fa-clock-o"></i> 2 days</small>
-                          </h4>
-                          <p>Why not buy a new awesome theme?</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="footer"><a href="#">See All Messages</a></li>
-                </ul>
-              </li>
-              <li class="dropdown notifications-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <i class="fa fa-bell-o"></i>
-                  <span class="label label-warning">10</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="header">You have 10 notifications</li>
-                  <li>
-                    <!-- inner menu: contains the actual data -->
-                    <ul class="menu">
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-users text-aqua"></i> 5 new members joined today
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the page and may cause design problems
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-users text-red"></i> 5 new members joined
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-shopping-cart text-green"></i> 25 sales made
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fa fa-user text-red"></i> You changed your username
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="footer"><a href="#">View all</a></li>
-                </ul>
-              </li>
-              <li class="dropdown tasks-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <i class="fa fa-flag-o"></i>
-                  <span class="label label-danger">9</span>
-                </a>
-                <ul class="dropdown-menu">
-                  <li class="header">You have 9 tasks</li>
-                  <li>
-                    <!-- inner menu: contains the actual data -->
-                    <ul class="menu">
-                      <li><!-- Task item -->
-                        <a href="#">
-                          <h3>
-                            Design some buttons
-                            <small class="pull-right">20%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">20% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li><!-- end task item -->
-                      <li><!-- Task item -->
-                        <a href="#">
-                          <h3>
-                            Create a nice theme
-                            <small class="pull-right">40%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">40% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li><!-- end task item -->
-                      <li><!-- Task item -->
-                        <a href="#">
-                          <h3>
-                            Some task I need to do
-                            <small class="pull-right">60%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">60% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li><!-- end task item -->
-                      <li><!-- Task item -->
-                        <a href="#">
-                          <h3>
-                            Make beautiful transitions
-                            <small class="pull-right">80%</small>
-                          </h3>
-                          <div class="progress xs">
-                            <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                              <span class="sr-only">80% Complete</span>
-                            </div>
-                          </div>
-                        </a>
-                      </li><!-- end task item -->
-                    </ul>
-                  </li>
-                  <li class="footer">
-                    <a href="#">View all tasks</a>
-                  </li>
-                </ul>
-              </li>
-              <?php */ ?>
-              <!-- User Account: style can be found in dropdown.less -->
-              <li class="dropdown user user-menu">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="<?=Yii::app()->baseUrl;?>/assets/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                  <span class="hidden-xs"><?=$datos->username;?></span>
-                </a>
-                <ul class="dropdown-menu">
-                  <!-- User image -->
-                  <li class="user-header">
-                    <img src="<?=Yii::app()->baseUrl;?>/assets/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-                    <p>
-                      <?=$datos->username;?> - Web Developer
-                      <small>Member since Nov. 2012</small>
-                    </p>
-                  </li>
-                  <!-- Menu Body -->
-                  <li class="user-body">
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Followers</a>
-                    </div>
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Sales</a>
-                    </div>
-                    <div class="col-xs-4 text-center">
-                      <a href="#">Friends</a>
-                    </div>
-                  </li>
-                  <!-- Menu Footer-->
-                  <li class="user-footer">
-                    <div class="pull-left">
-                      <a href="#" class="btn btn-default btn-flat">Profile</a>
-                    </div>
-                    <div class="pull-right">
-                      <a href="<?=Yii::app()->createUrl('/user/logout');?>" class="btn btn-default btn-flat">Cerrar</a>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <!-- Control Sidebar Toggle Button -->
-              <li>
-                <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
-              </li>
-            </ul>
+          <ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color">
+            <li>
+              <a href>
+                <i class="pull-right up"></i> 
+                <i class="icon mdi-social-person i-20"></i>
+                <span class="font-normal">Perfil</span>
+              </a>
+            </li>
+            <li>
+              <a href>
+                <i class="pull-right up"></i> 
+                <i class="icon mdi-action-lock i-20"></i>
+                <span class="font-normal">Cambair contraseña</span>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="<?php echo Yii::app()->createUrl('user/logout');?>">
+                <i class="pull-right up"></i> 
+                <i class="icon mdi-action-exit-to-app i-20"></i>
+                <span class="font-normal">Salir</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="pull-right" ui-view="navbar@"></div>
+      <!-- / -->
+      <!-- Search form -->
+      <div id="search" class="pos-abt w-full h-full blue hide">
+        <div class="box">
+          <div class="box-col w-56 text-center">
+            <!-- hide search form -->
+            <a md-ink-ripple class="navbar-item inline"  ui-toggle-class="show" target="#search"><i class="mdi-navigation-arrow-back i-24"></i></a>
           </div>
-        </nav>
-      </header>
-      <aside class="main-sidebar">
-        <!-- sidebar: style can be found in sidebar.less -->
-        <section class="sidebar">
-          <!-- Sidebar user panel -->
-          <div class="user-panel">
-            <div class="pull-left image">
-              <?php if(isset($datos->profile->foto)): ?>
-                <img src="<?=Yii::app()->request->baseUrl.'/images/perfiles/thumbs/'.$datos->profile->foto?>" class="img-circle" alt="User Image" />
-              <?php else: ?>
-                <img src="<?=Yii::app()->request->baseUrl.'/images/perfiles/thumbs/no_disponible.jpg';?>" class="img-circle" alt="User Image" />
-              <?php endif ?>
-            </div>
-            <div class="pull-left info">
-              <p><?=$datos->username;?></p>
-              <a href="#">Online</a>
-            </div>
+          <div class="box-col v-m">
+            <!-- bind to app.search.content -->
+            <input class="form-control input-lg no-bg no-border" placeholder="Search" ng-model="app.search.content">
           </div>
-          <?php 
-            switch($datos->profile->id_privilegio){
-              case 1:
-                  include('menu_admin.php');
-              break;
-              case 2:
-                include('menu_personalDepto.php');
-              break;
-              case 3:
-                include('menu_jefeDepto.php');
-              break;
-              case 4:
-                include('menu_jefeDepto.php');
-              break;
-              case 5:
-                include('menu_jefeOficina.php');
-              break;
-            }
-          ?>
-        </section>
-        <!-- /.sidebar -->
-      </aside>
-      <!-- Left side column. contains the logo and sidebar -->
-      <?php /* ?>
-      <aside class="main-sidebar">
-        <section class="sidebar">
-          <div class="user-panel">
-            <div class="text-center image">
-              <?php if(isset($datos->profile->foto)): ?>
-                <img src="<?=Yii::app()->request->baseUrl.'/images/perfiles/thumbs/'.$datos->profile->foto?>" class="img-circle" alt="User Image" />
-              <?php else: ?>
-                <img src="<?=Yii::app()->request->baseUrl.'/images/perfiles/thumbs/no_disponible.jpg';?>" class="img-circle" alt="User Image" />
-              <?php endif ?>
-            </div>
-            <div class="text-center info">
-              <p style="color:white;">
-                <?=$datos->username;?>
-              </p>
-            </div>
+          <div class="box-col w-56 text-center">
+            <a md-ink-ripple class="navbar-item inline"><i class="mdi-av-mic i-24"></i></a>
           </div>
-          <?php 
-            switch($datos->profile->id_privilegio){
-              case 1:
-                  include('menu_admin.php');
-              break;
-              case 2:
-                include('menu_personalDepto.php');
-              break;
-              case 3:
-                include('menu_jefeDepto.php');
-              break;
-              case 4:
-                include('menu_jefeDepto.php');
-              break;
-              case 5:
-                include('menu_jefeOficina.php');
-              break;
-            }
-          ?>
-        </section>
-      </aside>
-      <?php */ ?>
-
-      <!-- Content Wrapper. Contains page content -->
-      <div class="content-wrapper">
-        <?php echo $content; ?>
-      </div><!-- /.content-wrapper -->
-
-      <footer class="main-footer">
-        <div class="pull-right hidden-xs">
-          <b>Version</b> 2.3.0
         </div>
-        <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights reserved.
-      </footer>
+      </div>
+      <!-- / -->
+    </div>
+    <!-- Content -->
+    <?php echo $content; ?>
+    <!-- / content -->
 
-      <!-- Control Sidebar -->
-      <aside class="control-sidebar control-sidebar-dark">
-        <!-- Create the tabs -->
-        <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
-          <li><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
-          <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
-        </ul>
-        <!-- Tab panes -->
-        <div class="tab-content">
-          <!-- Home tab content -->
-          <div class="tab-pane" id="control-sidebar-home-tab">
-            <h3 class="control-sidebar-heading">Recent Activity</h3>
-            <ul class="control-sidebar-menu">
-              <li>
-                <a href="javascript::;">
-                  <i class="menu-icon fa fa-birthday-cake bg-red"></i>
-                  <div class="menu-info">
-                    <h4 class="control-sidebar-subheading">Langdon's Birthday</h4>
-                    <p>Will be 23 on April 24th</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="javascript::;">
-                  <i class="menu-icon fa fa-user bg-yellow"></i>
-                  <div class="menu-info">
-                    <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
-                    <p>New phone +1(800)555-1234</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="javascript::;">
-                  <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
-                  <div class="menu-info">
-                    <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
-                    <p>nora@example.com</p>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="javascript::;">
-                  <i class="menu-icon fa fa-file-code-o bg-green"></i>
-                  <div class="menu-info">
-                    <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
-                    <p>Execution time 5 seconds</p>
-                  </div>
-                </a>
-              </li>
-            </ul><!-- /.control-sidebar-menu -->
-
-            <h3 class="control-sidebar-heading">Tasks Progress</h3>
-            <ul class="control-sidebar-menu">
-              <li>
-                <a href="javascript::;">
-                  <h4 class="control-sidebar-subheading">
-                    Custom Template Design
-                    <span class="label label-danger pull-right">70%</span>
-                  </h4>
-                  <div class="progress progress-xxs">
-                    <div class="progress-bar progress-bar-danger" style="width: 70%"></div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="javascript::;">
-                  <h4 class="control-sidebar-subheading">
-                    Update Resume
-                    <span class="label label-success pull-right">95%</span>
-                  </h4>
-                  <div class="progress progress-xxs">
-                    <div class="progress-bar progress-bar-success" style="width: 95%"></div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="javascript::;">
-                  <h4 class="control-sidebar-subheading">
-                    Laravel Integration
-                    <span class="label label-warning pull-right">50%</span>
-                  </h4>
-                  <div class="progress progress-xxs">
-                    <div class="progress-bar progress-bar-warning" style="width: 50%"></div>
-                  </div>
-                </a>
-              </li>
-              <li>
-                <a href="javascript::;">
-                  <h4 class="control-sidebar-subheading">
-                    Back End Framework
-                    <span class="label label-primary pull-right">68%</span>
-                  </h4>
-                  <div class="progress progress-xxs">
-                    <div class="progress-bar progress-bar-primary" style="width: 68%"></div>
-                  </div>
-                </a>
-              </li>
-            </ul><!-- /.control-sidebar-menu -->
-
-          </div><!-- /.tab-pane -->
-
-          <!-- Settings tab content -->
-          <div class="tab-pane" id="control-sidebar-settings-tab">
-            <form method="post">
-              <h3 class="control-sidebar-heading">General Settings</h3>
-              <div class="form-group">
-                <label class="control-sidebar-subheading">
-                  Report panel usage
-                  <input type="checkbox" class="pull-right" checked>
-                </label>
-                <p>
-                  Some information about this general settings option
-                </p>
-              </div><!-- /.form-group -->
-
-              <div class="form-group">
-                <label class="control-sidebar-subheading">
-                  Allow mail redirect
-                  <input type="checkbox" class="pull-right" checked>
-                </label>
-                <p>
-                  Other sets of options are available
-                </p>
-              </div><!-- /.form-group -->
-
-              <div class="form-group">
-                <label class="control-sidebar-subheading">
-                  Expose author name in posts
-                  <input type="checkbox" class="pull-right" checked>
-                </label>
-                <p>
-                  Allow the user to show his name in blog posts
-                </p>
-              </div><!-- /.form-group -->
-
-              <h3 class="control-sidebar-heading">Chat Settings</h3>
-
-              <div class="form-group">
-                <label class="control-sidebar-subheading">
-                  Show me as online
-                  <input type="checkbox" class="pull-right" checked>
-                </label>
-              </div><!-- /.form-group -->
-
-              <div class="form-group">
-                <label class="control-sidebar-subheading">
-                  Turn off notifications
-                  <input type="checkbox" class="pull-right">
-                </label>
-              </div><!-- /.form-group -->
-
-              <div class="form-group">
-                <label class="control-sidebar-subheading">
-                  Delete chat history
-                  <a href="javascript::;" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
-                </label>
-              </div><!-- /.form-group -->
-            </form>
-          </div><!-- /.tab-pane -->
+  <div class="modal fade" id="user" data-backdrop="false">
+    <div class="right w-xl bg-white md-whiteframe-z2">
+        <div class="box">
+    <div class="p p-h-md">
+      <a data-dismiss="modal" class="pull-right text-muted-lt text-2x m-t-n inline p-sm">&times;</a>
+      <strong>Members</strong>
+    </div>
+    <div class="box-row">
+      <div class="box-cell">
+        <div class="box-inner">
+          <div class="list-group no-radius no-borders">
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+              <img src="images/a1.jpg" class="pull-left w-40 m-r img-circle">
+              <div class="clear">
+                <span class="font-bold block">Jonathan Doe</span>
+                <span class="clear text-ellipsis text-xs">"Hey, What's up"</span>
+              </div>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+              <img src="images/a2.jpg" class="pull-left w-40 m-r img-circle">
+              <div class="clear">
+                <span class="font-bold block">James Pill</span>
+                <span class="clear text-ellipsis text-xs">"Lorem ipsum dolor sit amet onsectetur adipiscing elit"</span>
+              </div>
+            </a>
+            <div class="p-h-md m-t p-v-xs">Work</div>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-success text-xs m-r-xs"></i>
+                <span>Jonathan Morina</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-success text-xs m-r-xs"></i>
+                <span>Mason Yarnell</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-warning text-xs m-r-xs"></i>
+                <span>Mike Mcalidek</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Cris Labiso</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Daniel Sandvid</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Helder Oliveira</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Jeff Broderik</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Daniel Sandvid</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Helder Oliveira</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Jeff Broderik</span>
+            </a>
+            <div class="p-h-md m-t p-v-xs">Partner</div>            
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-success text-xs m-r-xs"></i>
+                <span>Mason Yarnell</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-warning text-xs m-r-xs"></i>
+                <span>Mike Mcalidek</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Cris Labiso</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Jonathan Morina</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Daniel Sandvid</span>
+            </a>
+            <a data-toggle="modal" data-target="#chat" data-dismiss="modal"  class="list-group-item p-h-md">
+                <i class="fa fa-circle text-muted-lt text-xs m-r-xs"></i>
+                <span>Helder Oliveira</span>
+            </a>
+          </div>
         </div>
-      </aside><!-- /.control-sidebar -->
-      <!-- Add the sidebar's background. This div must be placed
-           immediately after the control sidebar -->
-      <div class="control-sidebar-bg"></div>
+      </div>
+    </div>
+    <div class="p-h-md p-v">
+      <p>Invite People</p>
+      <a href class="text-muted"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+      <a href class="text-muted m-h"><i class="fa fa-fw fa-facebook"></i> Facebook</a>
+    </div>
+  </div>
 
-    </div><!-- ./wrapper -->
+    </div>
+  </div>
 
-    <!-- jQuery 2.1.4 -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/plugins/jQuery/jQuery-2.1.4.min.js"></script>
-    <!-- Bootstrap 3.3.5 -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/bootstrap/js/bootstrap.min.js"></script>
-    <!-- FastClick -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/plugins/fastclick/fastclick.min.js"></script>
-    <!-- AdminLTE App -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/dist/js/app.min.js"></script>
-    <!-- Sparkline -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/plugins/sparkline/jquery.sparkline.min.js"></script>
-    <!-- jvectormap -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-    <script src="<?=Yii::app()->baseUrl;?>/assets/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-    <!-- SlimScroll 1.3.0 -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/plugins/slimScroll/jquery.slimscroll.min.js"></script>
-    <!-- ChartJS 1.0.1 -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/plugins/chartjs/Chart.min.js"></script>
-    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <!--<script src="<?#=Yii::app()->baseUrl;?>/assets/dist/js/pages/dashboard2.js"></script>-->
-    <!-- AdminLTE for demo purposes -->
-    <script src="<?=Yii::app()->baseUrl;?>/assets/dist/js/demo.js"></script>
-  </body>
+  <div class="modal fade" id="chat" data-backdrop="false">
+    <div class="right w-xxl bg-white md-whiteframe-z2">
+        <div class="box">
+    <div class="p p-h-md">
+      <a data-dismiss="modal" class="pull-right text-muted-lt text-2x m-t-n inline p-sm">&times;</a>
+      <strong>Chat</strong>
+    </div>
+    <div class="box-row bg-light lt">
+      <div class="box-cell">
+        <div class="box-inner">
+          <div class="p-md">
+            <div class="m-b">
+              <a href class="pull-left w-40 m-r-sm"><img src="images/a2.jpg" alt="..." class="w-full img-circle"></a>
+              <div class="clear">
+                <div class="p p-v-sm bg-warning inline r">
+                  Hi John, What's up...
+                </div>
+                <div class="text-muted-lt text-xs m-t-xs"><i class="fa fa-ok text-success"></i> 2 minutes ago</div>
+              </div>
+            </div>
+            <div class="m-b">
+              <a href class="pull-right w-40 m-l-sm"><img src="images/a3.jpg" class="w-full img-circle" alt="..."></a>
+              <div class="clear text-right">
+                <div class="p p-v-sm bg-info inline text-left r">
+                  Lorem ipsum dolor soe rooke..
+                </div>
+                <div class="text-muted-lt text-xs m-t-xs">1 minutes ago</div>
+              </div>
+            </div>
+            <div class="m-b">
+              <a href class="pull-left w-40 m-r-sm"><img src="images/a2.jpg" alt="..." class="w-full img-circle"></a>
+              <div class="clear">
+                <div class="p p-v-sm bg-warning inline r">
+                  Good!
+                </div>
+                <div class="text-muted-lt text-xs m-t-xs"><i class="fa fa-ok text-success"></i> 5 seconds ago</div>
+              </div>
+            </div>
+            <div class="m-b">
+              <a href class="pull-right w-40 m-l-sm"><img src="images/a3.jpg" class="w-full img-circle" alt="..."></a>
+              <div class="clear text-right">
+                <div class="p p-v-sm bg-info inline text-left r">
+                  Dlor soe isep..
+                </div>
+                <div class="text-muted-lt text-xs m-t-xs">Just now</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-h-md p-v">
+      <a class="pull-left w-32 m-r"><img src="images/a3.jpg" class="w-full img-circle" alt="..."></a>
+      <form>
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Say something">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">SEND</button>
+          </span>
+        </div>
+      </form>
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+
+</div>
+
+<script src="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/jquery/dist/jquery.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/bootstrap/dist/js/bootstrap.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/waves/dist/waves.js"></script>
+
+<script src="<?=Yii::app()->baseUrl;?>/assets/scripts/ui-load.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/scripts/ui-jp.config.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/scripts/ui-jp.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/scripts/ui-nav.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/scripts/ui-toggle.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/scripts/ui-form.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/scripts/ui-waves.js"></script>
+<script src="<?=Yii::app()->baseUrl;?>/assets/scripts/ui-client.js"></script>
+
+</body>
 </html>

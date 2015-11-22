@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/assets/animate.css/animate.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/assets/font-awesome/css/font-awesome.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/waves/dist/waves.css" type="text/css" />
-  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/styles/material-design-icons.css" type="text/css" />
+  <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/material-design-icons.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/bootstrap/dist/css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/font.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/app.css" type="text/css" />
