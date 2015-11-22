@@ -4,55 +4,55 @@
 			<div class="row	">
 				<div class="col-md-9">
 					<div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="panel panel-card">
 						        <div class="item">
-						          <img src="images/c1.jpg" class="w-full r-t" alt="Washed Out">
+						          <img src="<?=Yii::app()->baseUrl;?>/images/c1.jpg" class="w-full r-t" alt="Washed Out">
 						          <div class="bottom text-white p">
-						            Title
+						            PARTY
 						          </div>
 						        </div>
 						        <a md-ink-ripple class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right"><span class="text-white">23</span></a>
 						        <div class="p">
-						          <h3>Paracosm</h3>
+						          <h3>PEPE's AFTER PARTY</h3>
 						          <p>
-						            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+						            The PARTYs of Washed Out's breakthrough song and the first single from Paracosm share the
 						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
 						          </p>
 						        </div>
 						    </div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="panel panel-card">
 						        <div class="item">
-						          <img src="images/c1.jpg" class="w-full r-t" alt="Washed Out">
+						          <img src="<?=Yii::app()->baseUrl;?>/images/c1.jpg" class="w-full r-t" alt="Washed Out">
 						          <div class="bottom text-white p">
-						            Title
+						            PARTY
 						          </div>
 						        </div>
 						        <a md-ink-ripple class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right"><span class="text-white">23</span></a>
 						        <div class="p">
-						          <h3>Paracosm</h3>
+						          <h3>XTREME POOL PARTY</h3>
 						          <p>
-						            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+						            The PARTYs of Washed Out's breakthrough song and the first single from Paracosm share the
 						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
 						          </p>
 						        </div>
 						    </div>
 						</div>
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-6 col-xs-12">
 							<div class="panel panel-card">
 						        <div class="item">
-						          <img src="images/c1.jpg" class="w-full r-t" alt="Washed Out">
+						          <img src="<?=Yii::app()->baseUrl;?>/images/c1.jpg" class="w-full r-t" alt="Washed Out">
 						          <div class="bottom text-white p">
-						            Title
+						            PARTY
 						          </div>
 						        </div>
 						        <a md-ink-ripple class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right"><span class="text-white">23</span></a>
 						        <div class="p">
-						          <h3>Paracosm</h3>
+						          <h3>ESCALOFRÍOS NINGHT</h3>
 						          <p>
-						            The titles of Washed Out's breakthrough song and the first single from Paracosm share the
+						            The PARTYs of Washed Out's breakthrough song and the first single from Paracosm share the
 						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
 						          </p>
 						        </div>
@@ -114,7 +114,7 @@
 				    </div>
 				</div>
 			</div>
-			<div class="row row-centered">
+			<!--<div class="row row-centered">
 				<div class="col-sm-4 col-sm-12 col-centered">
 					<h5>Fiestas Próximas</h5>
 					<div class="md-list md-whiteframe-z0 bg-white m-b">
@@ -233,7 +233,7 @@
 				        </div>
 			    	</div>
 				</div>
-			</div>
+			</div>-->
 			<a href="<?=Yii::app()->createUrl('party/create');?>" class="md-btn md-fab md-fab-bottom-right pos-fix teal"><i class="mdi-social-cake i-24"></i></a>
 		</div>
 	</div>
@@ -242,7 +242,7 @@
 Yii::app()->clientScript->registerScript(
 	'scritpt-contenido-table',
 	'$.ajax({
-		url: "http://'.$this->url_server.'/hackbanero/server_party4u/user/admin/index.html",
+		url: "http://'.$this->url_server.'/server_party4u/user/admin/index.html",
 		type: "post",
 		dataType: "jsonp",
 		data: {user_id:'.Yii::app()->user->id.'},
@@ -251,7 +251,7 @@ Yii::app()->clientScript->registerScript(
 			if(data.data.usuarios!=null){
 				$("#content_list").show();
 				$.post(
-					"http://'.$this->url_server.'/hackbanero/cliente_party4u/usuarios/index.html",
+					"http://'.$this->url_server.'/cliente_party4u/usuarios/index.html",
 					{data:data.data},
 					function(data){
 						$("#contenido").html(data);
