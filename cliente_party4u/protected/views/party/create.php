@@ -15,8 +15,14 @@
 								</div>
 								<div class="col-md-4">
 									<div class="md-form-group">
-										<input class="md-input" name="Fiesta[maximo_participantes]">
+										<input type="date" class="md-input" name="Fiesta[maximo_participantes]">
 										<label>Día de la fiesta</label>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="md-form-group">
+										<input type="time" class="md-input" name="Fiesta[maximo_participantes]">
+										<label>Hora de la fiesta</label>
 									</div>
 								</div>
 								<div class="col-md-3">
