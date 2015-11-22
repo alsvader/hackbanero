@@ -6,9 +6,8 @@ class UsuariosController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $url_server = "localhost";
 	public $layout='//layouts/column2';
-
+	public $url_server="localhost/hackbanero";
 	/**
 	 * @return array action filters
 	 */

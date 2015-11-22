@@ -1,3 +1,4 @@
+<?php $this->layout="main_login"; ?>
 <div class="app">  
   <div class="center-block w-xxl w-auto-xs p-v-md">
     <div class="navbar">

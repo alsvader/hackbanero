@@ -33,6 +33,9 @@
         <button md-ink-ripple type="button" class="md-btn md-raised pink btn-block p-h-md iniciar">Sign in</button>
       </form>
     </div>
+    <div class="p-v-lg text-center">
+      <div>Aún no tienes una cuenta? <br><a href="<?=Yii::app()->createUrl('user/registration');?>" class="md-btn">Crear una cuena</a></div>
+    </div>
   </div>
 </div>
 
@@ -42,7 +45,8 @@ Yii::app()->clientScript->registerScript(
     '$("input").required=true;$("body").on("click",".iniciar",function(){
         $(".message").hide();
         $.ajax({
-            url: "http://'.$_SERVER['SERVER_NAME'].'/cliente_party4u/user/login.html",
+            //url: "http://'.$_SERVER['SERVER_NAME'].'/cliente_party4u/user/login.html",
+            url: "http://'.$_SERVER['SERVER_NAME'].'/hackbanero/cliente_party4u/user/login.html",
             type: "post",
             dataType: "jsonp",
             data: $("#form-login").serialize(),
@@ -50,7 +54,7 @@ Yii::app()->clientScript->registerScript(
                 console.log(data);
                 if(data.result.correct==true){
                 	//alert("HOLA estas logeado");
-                    window.location.href = "'.Yii::app()->createUrl('site/index').'";
+                    window.location.href = "'.Yii::app()->createUrl('/home/index').'";
                 }else{
                     if(data.result.msg=="validation"){
                         $(".message").show();

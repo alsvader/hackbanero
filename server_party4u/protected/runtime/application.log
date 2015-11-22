@@ -891,3 +891,21 @@ in C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerContr
 in C:\xampp\htdocs\hackbanero\server_party4u\index.php (14)
 >>>>>>> db2f0da4c0cda07155e6918de91f085bf1cb131c
 >>>>>>> 4856d8f9e6fb0cee330510dd0cdfd311d3eb1c57
+2015/11/22 10:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "hackbanero/server_party4u/user/admin/index"' in C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('hackbanero/serv...')
+#1 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\hackbanero\server_party4u\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/server_party4u/hackbanero/server_party4u/user/admin/index.html?callback=jQuery21406378511639777571_1448209616358
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+2015/11/22 10:27:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "server_party4u/user/admin/index"' in C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('server_party4u/...')
+#1 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\hackbanero\server_party4u\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/server_party4u/server_party4u/user/admin/index.html?callback=jQuery21406511013046838343_1448209661864
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---

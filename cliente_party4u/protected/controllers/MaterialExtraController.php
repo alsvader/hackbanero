@@ -7,7 +7,7 @@ class MaterialExtraController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column1';
-
+	public $url_server="hackbanero/server_party4u";
 	/**
 	 * @return array action filters
 	 */

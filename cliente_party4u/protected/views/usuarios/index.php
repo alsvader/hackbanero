@@ -1,8 +1,8 @@
 <div class="box-row">
 	<div class="box-cell">
 		<div class="box-inner padding">
-			<div class="row row-centered">
-				<div class="col-sm-10 col-sm-12 col-centered">
+			<div class="row">
+				<div class="col-sm-12 col-sm-12">
 					<div class="" id="contenido"></div>
 				</div>
 			</div>
@@ -14,7 +14,7 @@
 Yii::app()->clientScript->registerScript(
 	'scritpt-contenido-table',
 	'$.ajax({
-		url: "http://'.$this->url_server.'/hackbanero/server_party4u/user/admin/index.html",
+		url: "http://'.$this->url_server.'/server_party4u/user/admin/index.html",
 		type: "post",
 		dataType: "jsonp",
 		data: {user_id:'.Yii::app()->user->id.'},
@@ -23,7 +23,7 @@ Yii::app()->clientScript->registerScript(
 			if(data.data.usuarios!=null){
 				$("#content_list").show();
 				$.post(
-					"http://'.$this->url_server.'/hackbanero/cliente_party4u/usuarios/index.html",
+					"http://'.$this->url_server.'/cliente_party4u/usuarios/index.html",
 					{data:data.data},
 					function(data){
 						$("#contenido").html(data);
