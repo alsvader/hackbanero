@@ -1,0 +1,536 @@
+2015/11/01 01:42:08 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\AppServ\www\server_gar\yii-master\framework\web\CController.php:1119
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('subDepartamento...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/server_gar/subDepartamento/delete.html?id=1
+---
+2015/11/01 01:42:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\AppServ\www\server_gar\yii-master\framework\web\CController.php:1119
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/de...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/server_gar/departamento/delete.html?id=1
+---
+2015/11/01 01:42:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\AppServ\www\server_gar\yii-master\framework\web\CController.php:1119
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/de...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/server_gar/departamento/delete.html?id=1
+---
+2015/11/01 01:42:35 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\AppServ\www\server_gar\yii-master\framework\web\CController.php:1119
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/de...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/server_gar/departamento/delete.html?id=1
+---
+2015/11/01 01:42:37 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\AppServ\www\server_gar\yii-master\framework\web\CController.php:1119
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/de...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/server_gar/departamento/delete.html?id=1
+---
+2015/11/01 01:42:42 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\AppServ\www\server_gar\yii-master\framework\web\CController.php:1119
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/de...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/server_gar/departamento/delete.html?id=1
+---
+2015/11/01 01:44:12 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\AppServ\www\server_gar\yii-master\framework\web\CController.php:1119
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/de...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/server_gar/departamento/delete.html?id=1
+---
+2015/11/01 01:45:23 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\AppServ\www\server_gar\yii-master\framework\web\CController.php:1119
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/de...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/server_gar/departamento/delete.html?id=1
+---
+2015/11/02 12:36:42 [error] [exception.CException] exception 'CException' with message 'Alias "bootstrap.widgets.input.TbInput" es inválido. Verifique que el mismo apunta a un directorio o archivo exisitente.' in C:\AppServ\www\server_gar\yii-master\framework\YiiBase.php:343
+Stack trace:
+#0 C:\AppServ\www\server_gar\protected\extensions\bootstrap\widgets\TbActiveForm.php(10): YiiBase::import('bootstrap.widge...')
+#1 C:\AppServ\www\server_gar\yii-master\framework\YiiBase.php(316): require('C:\AppServ\www\...')
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\CWidgetFactory.php(147): YiiBase::import('ext.bootstrap.w...', true)
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(LoginController), 'ext.bootstrap.w...', Array)
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(190): CBaseController->createWidget('ext.bootstrap.w...', Array)
+#5 C:\AppServ\www\server_gar\protected\modules\user\views\user\login.php(7): CBaseController->beginWidget('ext.bootstrap.w...', Array)
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(127): require('C:\AppServ\www\...')
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(870): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(783): CController->renderPartial('/user/login', Array, true)
+#10 C:\AppServ\www\server_gar\protected\modules\user\controllers\LoginController.php(28): CController->render('/user/login', Array)
+#11 C:\AppServ\www\server_gar\yii-master\framework\web\actions\CInlineAction.php(50): LoginController->actionLogin()
+#12 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('')
+#16 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('user/login')
+#17 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/server_gar/user/login.html
+---
+2015/11/02 12:36:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "inicio"' in C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('inicio')
+#1 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/server_gar/inicio
+---
+2015/11/02 14:27:18 [error] [exception.CException] exception 'CException' with message 'Propiedad "Departamento"."nombre" no se encuentra definida.' in C:\AppServ\www\server_gar\yii-master\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveRecord.php(144): CComponent->__get('nombre')
+#1 C:\AppServ\www\server_gar\protected\controllers\DepartamentoController.php(58): CActiveRecord->__get('nombre')
+#2 C:\AppServ\www\server_gar\protected\controllers\DepartamentoController.php(68): DepartamentoController->DataDepartamento(Object(Departamento))
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\actions\CInlineAction.php(50): DepartamentoController->actionView()
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('view')
+#13 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/vi...')
+#14 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/server_gar/departamento/view.html?callback=jQuery21308398606618866324_1446496038617
+HTTP_REFERER=http://localhost/cliente_gar/site/inicio.html
+---
+2015/11/02 14:53:49 [error] [php] Invalid argument supplied for foreach() (C:\AppServ\www\server_gar\protected\controllers\DepartamentoController.php:52)
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(309): CInlineAction->runWithParams()
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(134): DepartamentoController->runAction()
+#2 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): DepartamentoController->filterAccessControl()
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): DepartamentoController->runActionWithFilters()
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): DepartamentoController->run()
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#10 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\AppServ\www\server_gar\index.php(14): CWebApplication->run()
+REQUEST_URI=/server_gar/departamento/view.html?callback=jQuery213047955364221706986_1446497628786
+in C:\AppServ\www\server_gar\protected\controllers\DepartamentoController.php (52)
+in C:\AppServ\www\server_gar\protected\controllers\DepartamentoController.php (104)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/02 15:03:37 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gar/sub_departamento`, CONSTRAINT `sub_departamento_ibfk_1` FOREIGN KEY (`id_departamento`) REFERENCES `departamento` (`id`)). The SQL statement executed was: DELETE FROM `departamento` WHERE `departamento`.`id`=1.
+in C:\AppServ\www\server_gar\protected\controllers\DepartamentoController.php (208)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/02 15:03:37 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`gar/sub_departamento`, CONSTRAINT `sub_departamento_ibfk_1` FOREIGN KEY (`id_departamento`) REFERENCES `departamento` (`id`)). The SQL statement executed was: DELETE FROM `departamento` WHERE `departamento`.`id`=1' in C:\AppServ\www\server_gar\yii-master\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveRecord.php(1739): CDbCommand->execute()
+#1 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveRecord.php(1162): CActiveRecord->deleteByPk('1')
+#2 C:\AppServ\www\server_gar\protected\controllers\DepartamentoController.php(208): CActiveRecord->delete()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\actions\CInlineAction.php(50): DepartamentoController->actionDelete()
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1117): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterPostOnly(Object(CFilterChain))
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('delete')
+#16 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('departamento/de...')
+#17 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/server_gar/departamento/delete.html?callback=jQuery213037072310666553676_1446498217314
+HTTP_REFERER=http://localhost/cliente_gar/site/inicio.html
+---
+2015/11/04 21:34:44 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "C:\AppServ\www\server_gar\assets" es inválido. Verifique que el directorio exista y tenga permisos de escritura por el proceso que corre el servidor Web.' in C:\AppServ\www\server_gar\yii-master\framework\web\CAssetManager.php:128
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\web\CAssetManager.php(113): CAssetManager->setBasePath('C:\AppServ\www\...')
+#1 C:\AppServ\www\server_gar\yii-master\framework\web\CAssetManager.php(235): CAssetManager->getBasePath()
+#2 C:\AppServ\www\server_gar\yii-master\framework\gii\GiiModule.php(143): CAssetManager->publish('C:\AppServ\www\...')
+#3 C:\AppServ\www\server_gar\yii-master\framework\base\CComponent.php(112): GiiModule->getAssetsUrl()
+#4 C:\AppServ\www\server_gar\yii-master\framework\base\CModule.php(106): CComponent->__get('assetsUrl')
+#5 C:\AppServ\www\server_gar\yii-master\framework\gii\views\layouts\main.php(5): CModule->__get('assetsUrl')
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(127): require('C:\AppServ\www\...')
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div class="con...')
+#10 C:\AppServ\www\server_gar\yii-master\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div class="con...')
+#11 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(207): COutputProcessor->run()
+#12 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#13 C:\AppServ\www\server_gar\yii-master\framework\gii\views\layouts\column1.php(7): CBaseController->endContent()
+#14 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(127): require('C:\AppServ\www\...')
+#15 C:\AppServ\www\server_gar\yii-master\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\AppServ\www\...', Array, true)
+#16 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(785): CBaseController->renderFile('C:\AppServ\www\...', Array, true)
+#17 C:\AppServ\www\server_gar\yii-master\framework\gii\controllers\DefaultController.php(47): CController->render('login', Array)
+#18 C:\AppServ\www\server_gar\yii-master\framework\web\actions\CInlineAction.php(50): DefaultController->actionLogin()
+#19 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#21 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('login')
+#23 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('gii/default/log...')
+#24 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#25 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#26 {main}
+REQUEST_URI=/server_gar/gii/default/login.html
+---
+2015/11/05 01:08:13 [error] [php] YiiBase::include(Users.php) [<a href='yiibase.include'>yiibase.include</a>]: failed to open stream: No such file or directory (C:\AppServ\www\server_gar\yii-master\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveRecord.php(387): spl_autoload_call()
+#1 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveFinder.php(220): model()
+#2 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveFinder.php(49): CActiveFinder->buildJoinTree()
+#3 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveRecord.php(272): CActiveFinder->__construct()
+#4 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveRecord.php(142): Solicitud->getRelated()
+#5 C:\AppServ\www\server_gar\protected\controllers\SolicitudController.php(238): Solicitud->__get()
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\actions\CInlineAction.php(50): SolicitudController->actionIndex()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(134): SolicitudController->runAction()
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#11 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): SolicitudController->filterAccessControl()
+#12 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#13 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): SolicitudController->runActionWithFilters()
+#15 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): SolicitudController->run()
+#16 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\AppServ\www\server_gar\index.php(14): CWebApplication->run()
+REQUEST_URI=/server_gar/solicitud/index.html?callback=jQuery2140394755398388952_1446707293675
+in C:\AppServ\www\server_gar\protected\controllers\SolicitudController.php (238)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/08 01:06:14 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`gar/solicitud`, CONSTRAINT `solicitud_ibfk_6` FOREIGN KEY (`id_departamento`) REFERENCES `departamento` (`id`)). The SQL statement executed was: INSERT INTO `solicitud` (`id_departamento`, `id_solicitante`, `descripcion`, `id_para`, `fecha_elaboracion`, `id_tipo`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5).
+in C:\AppServ\www\server_gar\protected\controllers\SolicitudController.php (166)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/08 01:06:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand falló al ejecutar la sentencia SQL: SQLSTATE[HY000]: General error: 1452 Cannot add or update a child row: a foreign key constraint fails (`gar/solicitud`, CONSTRAINT `solicitud_ibfk_6` FOREIGN KEY (`id_departamento`) REFERENCES `departamento` (`id`)). The SQL statement executed was: INSERT INTO `solicitud` (`id_departamento`, `id_solicitante`, `descripcion`, `id_para`, `fecha_elaboracion`, `id_tipo`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5)' in C:\AppServ\www\server_gar\yii-master\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\AppServ\www\server_gar\yii-master\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\AppServ\www\server_gar\protected\controllers\SolicitudController.php(166): CActiveRecord->save()
+#3 C:\AppServ\www\server_gar\yii-master\framework\web\actions\CInlineAction.php(50): SolicitudController->actionCreate()
+#4 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#6 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#8 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\AppServ\www\server_gar\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\AppServ\www\server_gar\yii-master\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(283): CController->run('create')
+#13 C:\AppServ\www\server_gar\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('solicitud/creat...')
+#14 C:\AppServ\www\server_gar\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\AppServ\www\server_gar\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/server_gar/solicitud/create.html?callback=jQuery2140054744824301451445_1446966371065
+HTTP_REFERER=http://localhost/cliente_gar/solicitudes/create.html
+---
+2015/11/14 21:22:05 [warning] [application] Failed to set unsafe attribute "privilegio" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/14 21:22:05 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/14 21:24:21 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/14 21:27:38 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/14 21:29:02 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/14 21:37:32 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/14 21:39:48 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/14 21:40:15 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/14 21:49:01 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 12:58:06 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 13:51:37 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 13:58:40 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:17:04 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:17:04 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (285)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:27:47 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:29:05 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:29:05 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (285)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:30:39 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:30:39 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (285)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:54:29 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:54:30 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (285)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:55:58 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:55:58 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (285)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:59:02 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 14:59:02 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (285)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 15:01:21 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 15:03:34 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 23:57:48 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (278)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/15 23:59:49 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (279)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 00:00:49 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (279)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 00:01:56 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (279)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 00:05:23 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (279)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 00:12:47 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (280)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 00:13:05 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (280)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 00:13:41 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 00:14:29 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 00:16:36 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 13:20:47 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 15:13:43 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 15:15:15 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 15:15:33 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 15:16:48 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 15:33:29 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 17:59:53 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:01:08 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:02:23 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:04:10 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:09:21 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:09:49 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:11:21 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:16:41 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:19:06 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:24:03 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:25:57 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
+2015/11/16 18:46:05 [warning] [application] Failed to set unsafe attribute "id_sub" of "Profile".
+in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
+in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
+in C:\AppServ\www\server_gar\index.php (14)
