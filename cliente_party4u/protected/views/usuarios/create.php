@@ -5,7 +5,7 @@
 				<div class="col-sm-8 col-centered">
 					<div class="card" ng-controller="MDInputCtrl" >
 					  <div class="card-heading">
-					    <h2>Basic Usage</h2>
+					    <h2>Alta Usuario</h2>
 					  </div>
 					  <div class="card-body">
 					  	<?php echo $this->renderPartial('_form', array()); ?>

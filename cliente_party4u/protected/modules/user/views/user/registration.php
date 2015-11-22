@@ -1,4 +1,48 @@
-<?php $this->pageTitle=Yii::app()->name . ' - '.UserModule::t("Registration");
+<div class="app">  
+  <div class="center-block w-xxl w-auto-xs p-v-md">
+    <div class="navbar">
+      <div class="navbar-brand m-t-lg text-center">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" style="
+                width: 24px; height: 24px;">
+          <path d="M 50 0 L 100 14 L 92 80 Z" fill="rgba(139, 195, 74, 0.5)"></path>
+          <path d="M 92 80 L 50 0 L 50 100 Z" fill="rgba(139, 195, 74, 0.8)"></path>
+          <path d="M 8 80 L 50 0 L 50 100 Z" fill="#fff"></path>
+          <path d="M 50 0 L 8 80 L 0 14 Z" fill="rgba(255, 255, 255, 0.6)"></path>
+        </svg>
+        <span class="m-l inline">Materil</span>
+      </div>
+    </div>
+    <div class="p-lg panel md-whiteframe-z1 text-color m">
+      <div class="m-b text-sm">
+        Sign up to your Materil Account
+      </div>
+      <form name="form">
+        <div class="md-form-group">
+          <input type="text" class="md-input" ng-model="user.name" required>
+          <label>Name</label>
+        </div>
+        <div class="md-form-group">
+          <input type="email" class="md-input" ng-model="user.email" required>
+          <label>Email</label>
+        </div>
+        <div class="md-form-group">
+          <input type="password" class="md-input" ng-model="user.password" required>
+          <label>Password</label>
+        </div>
+        <div class="m-b-md">
+          <label class="md-check">
+            <input type="checkbox" ng-model="agree" required><i class="indigo"></i> Agree the <a href>terms and policy</a>
+          </label>
+        </div>
+        <button md-ink-ripple type="submit" class="md-btn md-raised pink btn-block p-h-md">Sign up</button>
+      </form>
+    </div>
+    <div class="p-v-lg text-center">
+      <div>Already have an account? <button ui-sref="access.signin" class="md-btn">Sign in</button></div>
+    </div>
+  </div>
+</div>
+<?php /*$this->pageTitle=Yii::app()->name . ' - '.UserModule::t("Registration");
 $this->breadcrumbs=array(
 	UserModule::t("Registration"),
 );
@@ -6,7 +50,7 @@ $this->breadcrumbs=array(
 
 <h1><?php echo UserModule::t("Registration"); ?></h1>
 
-<?php /*$form=$this->beginWidget('ext.bootstrap.widgets.TbActiveForm', array( */
+<?php
 
 $form=$this->beginWidget('UActiveForm', array( //UActiveForm extends TbActiveForm
     'type'=>'horizontal',
@@ -70,88 +114,4 @@ $form=$this->beginWidget('UActiveForm', array( //UActiveForm extends TbActiveFor
 
     </div>
 
-<?php $this->endWidget(); ?>
-
-<?php /*
-<div class="form">
-<?php $form=$this->beginWidget('UActiveForm', array(
-	'id'=>'registration-form',
-	'enableAjaxValidation'=>true,
-	'disableAjaxValidationAttributes'=>array('RegistrationForm_verifyCode'),
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-	'htmlOptions' => array('enctype'=>'multipart/form-data'),
-)); ?>
-
-	<p class="note"><?php echo UserModule::t('Fields with <span class="required">*</span> are required.'); ?></p>
-	
-	<?php echo $form->errorSummary(array($model,$profile)); ?>
-	
-	<div class="row">
-	<?php echo $form->labelEx($model,'username'); ?>
-	<?php echo $form->textField($model,'username'); ?>
-	<?php echo $form->error($model,'username'); ?>
-	</div>
-	
-	<div class="row">
-	<?php echo $form->labelEx($model,'password'); ?>
-	<?php echo $form->passwordField($model,'password'); ?>
-	<?php echo $form->error($model,'password'); ?>
-	</div>
-	
-	<div class="row">
-	<?php echo $form->labelEx($model,'verifyPassword'); ?>
-	<?php echo $form->passwordField($model,'verifyPassword'); ?>
-	<?php echo $form->error($model,'verifyPassword'); ?>
-	</div>
-	
-	<div class="row">
-	<?php echo $form->labelEx($model,'email'); ?>
-	<?php echo $form->textField($model,'email'); ?>
-	<?php echo $form->error($model,'email'); ?>
-	</div>
-	
-<?php 
-		$profileFields=$profile->getFields();
-		if ($profileFields) {
-			foreach($profileFields as $field) {
-			?>
-	<div class="row">
-		<?php echo $form->labelEx($profile,$field->varname); ?>
-		<?php 
-		if ($widgetEdit = $field->widgetEdit($profile)) {
-			echo $widgetEdit;
-		} elseif ($field->range) {
-			echo $form->dropDownList($profile,$field->varname,Profile::range($field->range));
-		} elseif ($field->field_type=="TEXT") {
-			echo$form->textArea($profile,$field->varname,array('rows'=>6, 'cols'=>50));
-		} else {
-			echo $form->textField($profile,$field->varname,array('size'=>60,'maxlength'=>(($field->field_size)?$field->field_size:255)));
-		}
-		 ?>
-		<?php echo $form->error($profile,$field->varname); ?>
-	</div>	
-			<?php
-			}
-		}
-?>
-	<?php if (UserModule::doCaptcha('registration')): ?>
-	<div class="row">
-		<?php echo $form->labelEx($model,'verifyCode'); ?>
-		
-		<?php $this->widget('CCaptcha'); ?>
-		<?php echo $form->textField($model,'verifyCode'); ?>
-		<?php echo $form->error($model,'verifyCode'); ?>
-		
-		<p class="hint"><?php echo UserModule::t("Please enter the letters as they are shown in the image above."); ?>
-		<br/><?php echo UserModule::t("Letters are not case-sensitive."); ?></p>
-	</div>
-	<?php endif; ?>
-	
-	<div class="row submit">
-		<?php echo CHtml::submitButton(UserModule::t("Register")); ?>
-	</div>
-
-<?php $this->endWidget(); ?>
-</div><!-- form --> */ ?>
+<?php $this->endWidget(); */?>

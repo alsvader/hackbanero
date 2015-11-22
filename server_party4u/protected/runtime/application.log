@@ -623,3 +623,6 @@ in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
 2015/11/22 06:03:38 [warning] [application] Failed to set unsafe attribute "password" of "User".
 in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
 in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
+2015/11/22 07:02:12 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
+in C:\AppServ\www\hackbanero\server_party4u\index.php (14)

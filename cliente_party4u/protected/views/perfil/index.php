@@ -20,54 +20,33 @@
                 </div>
                 <ul class="nav nav-lists b-t" ui-nav>
                   <li class="active">
-                    <a href>Profile</a>
+                    <a href>Perfil Público</a>
                   </li>
                   <li>
-                    <a href>Account Settings</a>
-                  </li>
-                  <li>
-                    <a href>Emails</a>
-                  </li>
-                  <li>
-                    <a href>Notifications</a>
-                  </li>
-                  <li>
-                    <a href>Security</a>
-                  </li>
-                  <li>
-                    <a href>Organizations</a>
+                    <a href>Cambiar Contraseña</a>
                   </li>
                 </ul>
               </div>
               <div class="col-md-9 b-l bg-white bg-auto">
-                <div class="p-md bg-light lt b-b font-bold">Public profile</div>
+                <div class="p-md bg-light lt b-b font-bold">Perfil Público</div>
                 <form role="form" class="p-md col-md-6">
                   <div class="form-group">
-                    <label>Nombre</label>
-                    <input type="text" class="form-control">
+                    <label>Nombres</label>
+                    <input type="text" class="form-control" value="<?=$datos->profile->nombres?>">
                   </div>
                   <div class="form-group">
                     <label>Apellido Paterno</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" value="<?=$datos->profile->apellido_paterno?>">
                   </div>
                   <div class="form-group">
                     <label>Apellido Materno</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" value="<?=$datos->profile->apellido_materno?>">
                   </div>
                   <div class="form-group">
                     <label>Correo Electrónico</label>
-                    <input type="email" class="form-control">
+                    <input type="email" class="form-control" value="<?=$datos->email;?>">
                   </div>
-                  <div class="form-group">
-                    <label>Location</label>
-                    <input type="text" class="form-control">
-                  </div>
-                  <div class="checkbox">
-                    <label class="ui-checks">
-                      <input type="checkbox"><i></i> Available for hire
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-info m-t">Submit</button>
+                  <button type="submit" class="btn btn-info m-t">Guardar</button>
                 </form>
               </div>
             </div>
