@@ -7,11 +7,10 @@ class UsuariosController extends Controller
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
 	public $layout='//layouts/column2';
-<<<<<<< HEAD
+
 	public $url_server="localhost";
-=======
-	public $url_server="http://party4u.herokuapp.com/";
->>>>>>> a907804c8f8fbda614923ac083b6fcac09f416d2
+
+	
 	public $uniqueid = "Usuarios";
 	/**
 	 * @return array action filters
