@@ -62,21 +62,16 @@ class FiestaController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Fiesta;
+		header('Content-type: application/json');
+		if(isset($_POST['Fiesta'])){
+			
+			$model = new Fiesta();
+			$model->attributes = $_POST['Fiesta'];
 
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Fiesta']))
-		{
-			$model->attributes=$_POST['Fiesta'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+		}else{
+			
 		}
-
-		$this->render('create',array(
-			'model'=>$model,
-		));
+		Yii::app()->end($_GET['callback']."(".$json.")",true);
 	}
 
 	/**
@@ -122,7 +117,27 @@ class FiestaController extends Controller
 	 */
 	public function actionIndex()
 	{
-		header('string')
+		header('Content-type: application/json');
+		if(isset($_POST['user_id'])){
+			$datos=User::model()->findByPk($_POST['user_id']);
+			if ($datos!=null) {
+				if($datos->superuser==1){
+					$model = Fiesta::model()->findAll();
+					$result=array('correct'=>true,'error'=>false,'msg'=>'success');						
+				}else if ($datos->superuser==0){
+					$model = Fiesta::model()->findAll("id_user=".$_POST['user_id']);
+					$result=array('correct'=>true,'error'=>false,'msg'=>'success');
+				}
+				
+			} else {
+				$model = null;
+				$result=array('correct'=>false,'error'=>true,'msg'=>'vacio');
+			}
+			$json = CJSON::encode(array('result'=>$result,'data'=>array('fiestas'=>$model)));
+		}else{
+			$json = CJSON::encode(array('result'=>array('correct'=>false,'error'=>true,'msg'=>'request_invalid'),'data'=>null));
+		}
+		Yii::app()->end($_GET['callback']."(".$json.")",true);
 	}
 
 	/**
