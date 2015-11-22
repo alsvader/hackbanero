@@ -54,7 +54,7 @@
             <div class="box-inner">
               <div class="p hidden-folded blue-50" style="background-image:url(images/bg.png); background-size:cover">
                 <div class="rounded w-64 bg-white inline pos-rlt">
-                  <img src="images/a0.jpg" class="img-responsive rounded">
+                  <img src="<?=Yii::app()->baseUrl.'/images/perfiles/no_disponible.jpg'?>" alt="" class="img-responsive rounded" style="border:3px solid #ccc;">
                 </div>
                 <a class="block m-t-sm" href="#">
                   <span class="block font-bold"><?php echo $datos->username; ?></span>
@@ -172,7 +172,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color">
               <li>
-                <a href>
+                <a href="<?=Yii::app()->createUrl('perfil');?>">
                   <i class="pull-right up"></i> 
                   <i class="icon mdi-social-person i-20"></i>
                   <span class="font-normal">Perfil</span>

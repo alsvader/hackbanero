@@ -1,14 +1,10 @@
-<section class="content">
-	<div class="row row-centered">
-		<div class="col-xl-10 col-lg-11 col-md-12 col-sm-12 col-xs-12 col-centered">
-			<div class="box box-solid box-default z-shadow-1" id="box-archivos-solicitud">
-				<div class="box-body">
-					<?php $this->renderPartial('_view', array()); ?>
-				</div>
-			</div>
-		</div>
+<div class="box-row">
+    <div class="box-cell">
+        <div class="box-inner padding">
+            <?php $this->renderPartial('_view', array()); ?>
+        </div>
 	</div>
-</section>
+</div>
 <?php
 Yii::app()->clientScript->registerScript(
     'scritpt-contenido-table',
@@ -16,7 +12,7 @@ Yii::app()->clientScript->registerScript(
         url: "http://'.$this->url_server.'/server_gar/user/admin/view.html",
         type: "post",
         dataType: "jsonp",
-        data: {user_id:'.Yii::app()->user->id.',id},
+        data: {user_id:'.Yii::app()->user->id.',id:'.$id.'},
         success: function(data){
             $("#contenido").empty();
             if(data.data.solicitudes!=null){

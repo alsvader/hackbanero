@@ -2,7 +2,7 @@
 	<div class="box-cell">
 		<div class="box-inner padding">
 			<div class="row row-centered">
-				<div class="col-sm-8 col-centered">
+				<div class="col-sm-10 col-sm-12 col-centered">
 					<div class="" id="contenido"></div>
 				</div>
 			</div>

@@ -608,3 +608,18 @@ REQUEST_URI=/hackbanero/server_party4u/fiesta/index.html?callback=jQuery21407248
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 >>>>>>> a66afc59451f794c5e61e901dbb305a92f281ee4
 ---
+2015/11/22 05:28:14 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
+in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
+2015/11/22 05:29:30 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
+in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
+2015/11/22 05:31:13 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
+in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
+2015/11/22 06:00:48 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
+in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
+2015/11/22 06:03:38 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
+in C:\AppServ\www\hackbanero\server_party4u\index.php (14)

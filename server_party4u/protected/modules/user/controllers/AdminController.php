@@ -302,7 +302,7 @@ class AdminController extends Controller
 			$model->superuser=0;
 			$profile->attributes=$_POST['Profile'];
 			$profile->user_id=0;
-			$profile->id_sub=1;
+			$profile->id_privilegio=2;
 			$profile->foto=null;
 			if($model->validate()&&$profile->validate()){
 				if($model->save()){
