@@ -39,7 +39,7 @@
 									<div class = "progress-bar progress-bar-info" style="width:30%">30%</div>
 								</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.....</p>
-								<button class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">Ver</button>
+								<a href="<?php echo Yii::app()->createUrl('parties/ver');?>" class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">Ver</a>
 							</div>
 						</div>
 					</div>

@@ -78,13 +78,13 @@
 				        </div>-->
 				        <div class="card-divider"></div>
 				        <div class="card-body">
-				          <a href class="m-r-xs inline">
+				          <a href="<?php echo Yii::app()->createUrl('perfil/index');?>" class="m-r-xs inline">
 				            <img src="<?=Yii::app()->baseUrl;?>/images/a4.jpg" class="w-40 img-circle">
 				          </a>
-				          <a href class="m-r-xs inline">
+				          <a href="<?php echo Yii::app()->createUrl('perfil/index');?>" class="m-r-xs inline">
 				            <img src="<?=Yii::app()->baseUrl;?>/images/a5.jpg" class="w-40 img-circle">
 				          </a>
-				          <a href class="m-r-xs inline">
+				          <a href="<?php echo Yii::app()->createUrl('perfil/index');?>" class="m-r-xs inline">
 				            <img src="<?=Yii::app()->baseUrl;?>/images/a6.jpg" class="w-40 img-circle">
 				          </a>
 				          <a class="btn btn-rounded btn-primary">99+</a>
@@ -97,13 +97,13 @@
 				        </div>
 				        <div class="card-divider"></div>
 				        <div class="card-body">
-				          <a href class="m-r-xs inline">
+				          <a href="<?php echo Yii::app()->createUrl('perfil/index');?>" class="m-r-xs inline">
 				            <img src="<?=Yii::app()->baseUrl;?>/images/a4.jpg" class="w-40 img-circle">
 				          </a>
-				          <a href class="m-r-xs inline">
+				          <a href="<?php echo Yii::app()->createUrl('perfil/index');?>" class="m-r-xs inline">
 				            <img src="<?=Yii::app()->baseUrl;?>/images/a5.jpg" class="w-40 img-circle">
 				          </a>
-				          <a href class="m-r-xs inline">
+				          <a href="<?php echo Yii::app()->createUrl('perfil/index');?>" class="m-r-xs inline">
 				            <img src="<?=Yii::app()->baseUrl;?>/images/a6.jpg" class="w-40 img-circle">
 				          </a>
 				          <a class="btn btn-rounded btn-danger">99+</a>
