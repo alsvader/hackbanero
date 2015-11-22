@@ -70,7 +70,7 @@ $config = array(
 			'connectionString' => 'mysql:host=localhost;dbname=party4u',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => 'codesomething',
+			'password' => 'root',
 			'charset' => 'utf8',
 			'tablePrefix' => '',
 		),

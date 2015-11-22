@@ -534,6 +534,7 @@ in C:\AppServ\www\server_gar\index.php (14)
 in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
 in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
 in C:\AppServ\www\server_gar\index.php (14)
+<<<<<<< HEAD
 2015/11/22 02:39:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php:484
 Stack trace:
 #0 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('index')
@@ -577,4 +578,33 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/hackbanero/server_party4u/user/admin/index.html?callback=jQuery21407998206908814609_1448181833251
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+=======
+2015/11/22 03:18:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Fiesta))
+#7 /var/www/hackbanero/server_party4u/yii-master/framework/web/CActiveDataProvider.php(75): CActiveRecord::model('Fiesta')
+#8 /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php(125): CActiveDataProvider->__construct('Fiesta')
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/web/actions/CInlineAction.php(50): FiestaController->actionIndex()
+#10 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('index')
+#19 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('fiesta/index')
+#20 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/hackbanero/server_party4u/index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/hackbanero/server_party4u/fiesta/index.html?callback=jQuery21407248069966640275_1448183903257
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
+>>>>>>> a66afc59451f794c5e61e901dbb305a92f281ee4
 ---
