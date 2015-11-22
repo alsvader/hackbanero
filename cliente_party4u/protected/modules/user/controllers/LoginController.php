@@ -8,6 +8,7 @@ class LoginController extends Controller
 	 * Displays the login page
 	 */
 	public function actionLogin(){
+		$model = null;
 		if(isset($_POST['UserLogin'])&&isset($_GET['callback'])){
 			header('Content-type: application/json');
 			$model=new UserLogin;

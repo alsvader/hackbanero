@@ -1,6 +1,6 @@
 <?php
 
-class TimelineController extends Controller
+class SiguiendoController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -54,7 +54,7 @@ class TimelineController extends Controller
 		if(isset($_POST['data'])){
 			$this->renderPartial('_view', array('datos'=>$_POST['data']));
 		}else{
-			$this->render('view',array('id'=>$id));
+			$this->render('view');
 		}
 	}
 
@@ -110,10 +110,10 @@ class TimelineController extends Controller
 	 */
 	public function actionIndex(){
 		if(isset($_POST['data'])){
-			$this->renderPartial('_index', array('usuarios'=>$_POST['data']['usuarios']));
+			$this->renderPartial('_index', array('siguiendos'=>$_POST['data']['siguiendo']));
 		}else{
-			$datos=User::model()->findByPk(Yii::app()->user->id);
-			$this->render('index',array('datos'=>$datos));
+			//$datos=User::model()->findByPk(Yii::app()->user->id);
+			$this->render('index');
 		}
 	}
 

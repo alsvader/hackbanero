@@ -608,6 +608,7 @@ REQUEST_URI=/hackbanero/server_party4u/fiesta/index.html?callback=jQuery21407248
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 >>>>>>> a66afc59451f794c5e61e901dbb305a92f281ee4
 ---
+<<<<<<< HEAD
 2015/11/22 05:28:14 [warning] [application] Failed to set unsafe attribute "password" of "User".
 in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
 in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
@@ -626,3 +627,77 @@ in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
 2015/11/22 07:02:12 [warning] [application] Failed to set unsafe attribute "password" of "User".
 in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
 in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
+=======
+2015/11/22 11:47:30 [error] [php] Undefined variable: result (C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php:64)
+Stack trace:
+#0 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilterChain.php(134): FollowerController->runAction()
+#1 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CInlineFilter.php(59): FollowerController->filterAccessControl()
+#4 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(266): FollowerController->runActionWithFilters()
+#7 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(283): FollowerController->run()
+#8 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\hackbanero\server_party4u\index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/follower/siguiendo.html?callback=jQuery21405010168692097068_1448189247341
+in C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php (64)
+in C:\xampp\htdocs\hackbanero\server_party4u\index.php (14)
+2015/11/22 11:47:47 [error] [php] Undefined variable: result (C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php:64)
+Stack trace:
+#0 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilterChain.php(134): FollowerController->runAction()
+#1 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CInlineFilter.php(59): FollowerController->filterAccessControl()
+#4 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(266): FollowerController->runActionWithFilters()
+#7 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(283): FollowerController->run()
+#8 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\hackbanero\server_party4u\index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/follower/siguiendo.html?callback=jQuery21407621379401534796_1448189265204
+in C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php (64)
+in C:\xampp\htdocs\hackbanero\server_party4u\index.php (14)
+2015/11/22 11:48:47 [error] [php] Undefined variable: model (C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php:65)
+Stack trace:
+#0 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilterChain.php(134): FollowerController->runAction()
+#1 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CInlineFilter.php(59): FollowerController->filterAccessControl()
+#4 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(266): FollowerController->runActionWithFilters()
+#7 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(283): FollowerController->run()
+#8 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\hackbanero\server_party4u\index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/follower/siguiendo.html?callback=jQuery21406385081415064633_1448189325328
+in C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php (65)
+in C:\xampp\htdocs\hackbanero\server_party4u\index.php (14)
+2015/11/22 12:08:13 [error] [php] include(Users.php): failed to open stream: No such file or directory (C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\db\ar\CActiveRecord.php(387): spl_autoload_call()
+#1 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\db\ar\CActiveFinder.php(220): model()
+#2 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\db\ar\CActiveFinder.php(49): CActiveFinder->buildJoinTree()
+#3 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\db\ar\CActiveRecord.php(272): CActiveFinder->__construct()
+#4 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\db\ar\CActiveRecord.php(142): Follower->getRelated()
+#5 C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php(72): Follower->__get()
+#6 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\actions\CInlineAction.php(50): FollowerController->actionSiguiendo()
+#7 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilterChain.php(134): FollowerController->runAction()
+#9 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#11 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CInlineFilter.php(59): FollowerController->filterAccessControl()
+#12 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#13 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CController.php(266): FollowerController->runActionWithFilters()
+#15 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(283): FollowerController->run()
+#16 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#17 C:\xampp\htdocs\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\hackbanero\server_party4u\index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/follower/siguiendo.html?callback=jQuery21403205334816593677_1448190491393
+in C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php (72)
+in C:\xampp\htdocs\hackbanero\server_party4u\index.php (14)
+>>>>>>> db2f0da4c0cda07155e6918de91f085bf1cb131c

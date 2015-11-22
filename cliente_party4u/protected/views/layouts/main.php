@@ -65,7 +65,7 @@
                 <nav ui-nav>
                   <ul class="nav">
                       <li class="">
-                      <a md-ink-ripple href="<?=Yii::app()->createUrl('timeline');?>">
+                      <a md-ink-ripple href="<?=Yii::app()->createUrl('home');?>">
                         <i class="pull-right up"></i> 
                         <i class="icon mdi-action-home i-20"></i>
                         <span class="font-normal">Inicio</span>
