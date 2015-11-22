@@ -30,15 +30,15 @@ class PartiesController extends Controller
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete'),
-				'users'=>array('*'),
+				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -52,16 +52,15 @@ class PartiesController extends Controller
 	 * when an action is not explicitly requested by users.
 	 */
 	public function actionIndex(){
-		if(Yii::app()->user->isGuest){
-			$this->redirect(array('user/login'));
-		}else{
-
-			if (isset($_POST['data'])) {
-				$this->render('_index', array('datos'=>$_POST['data']));
-			} else {
-				$this->render('index', array());
-			}
+		if (isset($_POST['data'])) {
+			$this->render('_index', array('datos'=>$_POST['data']['fiestas']));
+		} else {
+			$this->render('index', array());
 		}
+	}
+
+	public function actionCreate() {
+		$this->render('create', array());
 	}
 	
 }

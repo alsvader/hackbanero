@@ -609,6 +609,195 @@ HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
 >>>>>>> a66afc59451f794c5e61e901dbb305a92f281ee4
 ---
 <<<<<<< HEAD
+2015/11/22 03:42:34 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(User))
+#7 /var/www/hackbanero/server_party4u/protected/modules/user/models/User.php(33): CActiveRecord::model('User')
+#8 /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php(127): User::model()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/web/actions/CInlineAction.php(50): FiestaController->actionIndex()
+#10 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('index')
+#19 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('fiesta/index')
+#20 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/hackbanero/server_party4u/index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/hackbanero/server_party4u/fiesta/index.html?callback=jQuery2140791281971877967_1448185354714
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
+---
+2015/11/22 03:44:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(User))
+#7 /var/www/hackbanero/server_party4u/protected/modules/user/models/User.php(33): CActiveRecord::model('User')
+#8 /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php(127): User::model()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/web/actions/CInlineAction.php(50): FiestaController->actionIndex()
+#10 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('index')
+#19 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('fiesta/index')
+#20 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/hackbanero/server_party4u/index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/hackbanero/server_party4u/fiesta/index.html?callback=jQuery21406827366543002427_1448185472527
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
+---
+2015/11/22 03:44:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(User))
+#7 /var/www/hackbanero/server_party4u/protected/modules/user/models/User.php(33): CActiveRecord::model('User')
+#8 /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php(127): User::model()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/web/actions/CInlineAction.php(50): FiestaController->actionIndex()
+#10 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('index')
+#19 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('fiesta/index')
+#20 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/hackbanero/server_party4u/index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/hackbanero/server_party4u/fiesta/index.html?callback=jQuery21409533251805696636_1448185480861
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
+---
+2015/11/22 03:45:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/base/CModule.php(388): CDbConnection->init()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(624): CApplication->getDb()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/db/ar/CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(User))
+#7 /var/www/hackbanero/server_party4u/protected/modules/user/models/User.php(33): CActiveRecord::model('User')
+#8 /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php(127): User::model()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/web/actions/CInlineAction.php(50): FiestaController->actionIndex()
+#10 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#13 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#17 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): CController->run('index')
+#19 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('fiesta/index')
+#20 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /var/www/hackbanero/server_party4u/index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/hackbanero/server_party4u/fiesta/index.html?callback=jQuery21404276282020035205_1448185507910
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/parties/index.html
+---
+2015/11/22 04:58:47 [warning] [application] Failed to set unsafe attribute "maximo_participantes" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:58:47 [warning] [application] Failed to set unsafe attribute "min_cuta" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:58:47 [warning] [application] Failed to set unsafe attribute "user_id" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:58:47 [error] [php] Creating default object from empty value (/var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php:73)
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): FiestaController->runAction()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): FiestaController->filterAccessControl()
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): FiestaController->runActionWithFilters()
+#7 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): FiestaController->run()
+#8 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/hackbanero/server_party4u/index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/fiesta/create.html?callback=jQuery21404778492860496044_1448189918336
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (73)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:11 [warning] [application] Failed to set unsafe attribute "maximo_participantes" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:11 [warning] [application] Failed to set unsafe attribute "min_cuta" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:11 [warning] [application] Failed to set unsafe attribute "user_id" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:11 [error] [php] Creating default object from empty value (/var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php:73)
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): FiestaController->runAction()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): FiestaController->filterAccessControl()
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): FiestaController->runActionWithFilters()
+#7 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): FiestaController->run()
+#8 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/hackbanero/server_party4u/index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/fiesta/create.html?callback=jQuery21407343074949458241_1448189942877
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (73)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:49 [warning] [application] Failed to set unsafe attribute "maximo_participantes" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:49 [warning] [application] Failed to set unsafe attribute "min_cuta" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:49 [warning] [application] Failed to set unsafe attribute "user_id" of "Fiesta".
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (69)
+in /var/www/hackbanero/server_party4u/index.php (14)
+2015/11/22 04:59:49 [error] [php] Creating default object from empty value (/var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php:73)
+Stack trace:
+#0 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(134): FiestaController->runAction()
+#1 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#2 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(1146): CAccessControlFilter->filter()
+#3 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CInlineFilter.php(59): FiestaController->filterAccessControl()
+#4 /var/www/hackbanero/server_party4u/yii-master/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter()
+#5 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(292): CFilterChain->run()
+#6 /var/www/hackbanero/server_party4u/yii-master/framework/web/CController.php(266): FiestaController->runActionWithFilters()
+#7 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(283): FiestaController->run()
+#8 /var/www/hackbanero/server_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#9 /var/www/hackbanero/server_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#10 /var/www/hackbanero/server_party4u/index.php(14): CWebApplication->run()
+REQUEST_URI=/hackbanero/server_party4u/fiesta/create.html?callback=jQuery21409149492136202753_1448189951694
+in /var/www/hackbanero/server_party4u/protected/controllers/FiestaController.php (73)
+in /var/www/hackbanero/server_party4u/index.php (14)
+=======
+<<<<<<< HEAD
 2015/11/22 05:28:14 [warning] [application] Failed to set unsafe attribute "password" of "User".
 in C:\AppServ\www\hackbanero\server_party4u\protected\modules\user\controllers\AdminController.php (298)
 in C:\AppServ\www\hackbanero\server_party4u\index.php (14)
@@ -701,3 +890,4 @@ REQUEST_URI=/hackbanero/server_party4u/follower/siguiendo.html?callback=jQuery21
 in C:\xampp\htdocs\hackbanero\server_party4u\protected\controllers\FollowerController.php (72)
 in C:\xampp\htdocs\hackbanero\server_party4u\index.php (14)
 >>>>>>> db2f0da4c0cda07155e6918de91f085bf1cb131c
+>>>>>>> 4856d8f9e6fb0cee330510dd0cdfd311d3eb1c57
