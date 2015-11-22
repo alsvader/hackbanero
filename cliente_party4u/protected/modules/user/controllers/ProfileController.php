@@ -14,12 +14,7 @@ class ProfileController extends Controller
 	 */
 	public function actionProfile()
 	{
-		$model = $this->loadUser();
-        $profile = $model->profile;
-	    $this->render('profile',array(
-	    	'model'=>$model,
-			'profile'=>$profile,
-	    ));
+		$this->render('edit');
 	}
 	public function crearThumb($imagen,$extension){ //OA 
 		$img_original=$_SERVER['DOCUMENT_ROOT'].'images/perfiles/'.$imagen; //Ruta de la imagen

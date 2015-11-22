@@ -6,7 +6,7 @@ class PartiesController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $url_server="/hackbanero/server_party4u";
+	public $url_server="/server_party4u";
 	public $layout='//layouts/column2';
 	public $uniqueid="Fiestas";
 	/**
@@ -41,7 +41,7 @@ class PartiesController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('fondeos'),
+				'actions'=>array('fondeos', 'ver'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -63,9 +63,17 @@ class PartiesController extends Controller
 			$this->render('index', array('fiestas'=>$fiestas));
 		}
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> a907804c8f8fbda614923ac083b6fcac09f416d2
 	public function actionFondeos() {
 		$this->render('fondeos', array());
+	}
+
+	public function actionVer(){
+		$this->render('ver', array());	
 	}
 
 	public function actionCreate() {
