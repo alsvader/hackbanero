@@ -21,16 +21,17 @@
 								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 								</p>	
-							</div>
-							<div class = "p">
-								<p>Ha juntado
-									<div class = "progress">
-										<div class = "progress-bar progress-bar-info" style="width:30%">Ha juntado $800,00 MXN</div>
-									</div>
-								</p>
 								<p class = "pull-left">Necesita:<br/>$1200,00 MXN</p>
 								<p class = "pull-right">Quedan:<br/>18 días</p>		
 							</div>
+							<br/>
+							<div class = "p">
+								Ha juntado
+								<div class = "progress">
+									<div class = "progress-bar progress-bar-info" style="width:30%">Ha juntado $800,00 MXN</div>
+								</div>
+							</div>
+							<button class = "col-md-10 col-md-offset-1 md-btn btn-lg md-raised m-b btn-fw green">¡Fondear aquí!</button>
 						</div>
 					</div>
 				</div>
