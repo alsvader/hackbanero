@@ -1,4 +1,3 @@
-<?php $this->layout="main_login"; ?>
 <div class="app">  
   <div class="center-block w-xxl w-auto-xs p-v-md">
     <div class="navbar">
@@ -14,32 +13,29 @@
       </div>
     </div>
     <div class="p-lg panel md-whiteframe-z1 text-color m">
-      <div class="m-b text-sm">
-        Sign up to your Materil Account
-      </div>
       <form name="form">
         <div class="md-form-group">
           <input type="text" class="md-input" ng-model="user.name" required>
-          <label>Name</label>
+          <label>Nombre de Usuario</label>
         </div>
         <div class="md-form-group">
           <input type="email" class="md-input" ng-model="user.email" required>
-          <label>Email</label>
+          <label>Correo Electrónico</label>
         </div>
         <div class="md-form-group">
           <input type="password" class="md-input" ng-model="user.password" required>
-          <label>Password</label>
+          <label>Contraseña</label>
         </div>
         <div class="m-b-md">
           <label class="md-check">
-            <input type="checkbox" ng-model="agree" required><i class="indigo"></i> Agree the <a href>terms and policy</a>
+            <input type="checkbox" ng-model="agree" required><i class="indigo"></i> Acepto los <a href>Términos y condiciones.</a>
           </label>
         </div>
-        <button md-ink-ripple type="submit" class="md-btn md-raised pink btn-block p-h-md">Sign up</button>
+        <a md-ink-ripple href="<?=Yii::app()->createUrl('user/login');?>" class="md-btn md-raised pink btn-block p-h-md">Registrarme</a>
       </form>
     </div>
     <div class="p-v-lg text-center">
-      <div>Already have an account? <button ui-sref="access.signin" class="md-btn">Sign in</button></div>
+      <div>Ya tengo una cuenta? <br><a href="<?=Yii::app()->createUrl('user/login');?>" class="md-btn">Iniciar</a></div>
     </div>
   </div>
 </div>

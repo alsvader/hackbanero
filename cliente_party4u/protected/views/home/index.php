@@ -16,7 +16,7 @@
 						          <h3>PEPE's AFTER PARTY</h3>
 						          <p>
 						            The PARTYs of Washed Out's breakthrough song and the first single from Paracosm share the
-						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...<button md-ink-ripple="" class="btn btn-sm btn-info waves-effect waves-effect">ver más</button>
 						          </p>
 						        </div>
 						    </div>
@@ -33,7 +33,7 @@
 						          <h3>XTREME POOL PARTY</h3>
 						          <p>
 						            The PARTYs of Washed Out's breakthrough song and the first single from Paracosm share the
-						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...<button md-ink-ripple="" class="btn btn-sm btn-info waves-effect waves-effect">ver más</button>
 						          </p>
 						        </div>
 						    </div>
@@ -50,7 +50,7 @@
 						          <h3>ESCALOFRÍOS NIGHT</h3>
 						          <p>
 						            The PARTYs of Washed Out's breakthrough song and the first single from Paracosm share the
-						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...
+						            two most important words in Ernest Greene's musical language: feel it. It's a simple request, as well...<button md-ink-ripple="" class="btn btn-sm btn-info waves-effect waves-effect">ver más</button>
 						          </p>
 						        </div>
 						    </div>
