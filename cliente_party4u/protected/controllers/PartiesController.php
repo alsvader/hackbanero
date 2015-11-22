@@ -64,9 +64,6 @@ class PartiesController extends Controller
 		}
 	}
 
-<<<<<<< HEAD
-	public function actionCreate(){
-=======
 	public function actionFondeos() {
 		$this->render('fondeos', array());
 	}
@@ -76,7 +73,6 @@ class PartiesController extends Controller
 	}
 
 	public function actionCreate() {
->>>>>>> c47f6d10c8073b0a9e4c8278fc1d1d4dfcb305c2
 		$this->render('create', array());
 	}
 	
