@@ -41,7 +41,7 @@ class PartiesController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('fondeos'),
+				'actions'=>array('fondeos', 'ver'),
 				'users'=>array('@'),
 			),
 			array('deny',  // deny all users
@@ -65,6 +65,10 @@ class PartiesController extends Controller
 
 	public function actionFondeos() {
 		$this->render('fondeos', array());
+	}
+
+	public function actionVer(){
+		$this->render('ver', array());	
 	}
 
 	public function actionCreate() {
