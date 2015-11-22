@@ -43,7 +43,7 @@
 <script type="text/javascript">
 	document.getElementById('fondear').addEventListener('click', function () {
 		this.disabled = true;
-		document.getElementById('barra').style.width = 80;
+		document.getElementById('barra').style.width = "80%";
 	});
 </script>
 
