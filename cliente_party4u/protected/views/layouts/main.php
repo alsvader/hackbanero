@@ -79,7 +79,7 @@
                       </a>
                     </li>
                       <li>
-                      <a md-ink-ripple href="ui.chart.html">
+                      <a md-ink-ripple href="<?php echo Yii::app()->createUrl('parties/fondeos');?>">
                         <i class="pull-right up"></i> 
                         <i class="icon mdi-editor-attach-money i-20"></i>
                         <span class="font-normal">Fondeos</span>
