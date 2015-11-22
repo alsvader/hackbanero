@@ -110,7 +110,7 @@ class UsuariosController extends Controller
 	 */
 	public function actionIndex(){
 		if(isset($_POST['data'])){
-			$this->renderPartial('_index', array('solicitudes'=>$_POST['data']['solicitudes']));
+			$this->renderPartial('_index', array('usuarios'=>$_POST['data']['usuarios']));
 		}else{
 			$datos=User::model()->findByPk(Yii::app()->user->id);
 			$this->render('index',array('datos'=>$datos));

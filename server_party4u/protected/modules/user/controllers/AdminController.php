@@ -42,6 +42,23 @@ class AdminController extends Controller
 	/**
 	 * Manages all models.
 	 */
+	public function actionIndex(){
+		header('Content-type: application/json');
+		if(isset($_POST['user_id'])){
+			$datos=User::model()->findByPk($_POST['user_id']);
+			if($datos->superuser==1){
+				$model = User::model()->findAll();
+				$result=array('correct'=>true,'error'=>false,'msg'=>'success');
+			}else{
+				$model = null;
+				$result=array('correct'=>false,'error'=>true,'msg'=>'validation');
+			}
+			$json = CJSON::encode(array('result'=>$result,'data'=>array('usuarios'=>$model)));
+		}else{
+			$json = CJSON::encode(array('result'=>array('correct'=>false,'error'=>true,'msg'=>'request_invalid'),'data'=>null));
+		}
+		Yii::app()->end($_GET['callback']."(".$json.")",true);
+	}
 	public function actionAdmin(){
 		$datos=User::model()->findByPk(Yii::app()->user->id);
 		$criteria = new CDbCriteria();
