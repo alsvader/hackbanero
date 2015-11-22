@@ -13,7 +13,19 @@
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/bootstrap/dist/css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/font.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/app.css" type="text/css" />
-
+  <style type="text/css">
+    .row-centered {
+          text-align:center;
+      }
+      .col-centered {
+          display:inline-block;
+          float:none;
+          /* reset the text-align */
+          text-align:left;
+          /* inline-block space fix */
+          margin-right:-4px;
+      }
+  </style>
 </head>
 <?php $datos= User::model()->findByPk(Yii::app()->user->id);?>
 <body>
@@ -74,14 +86,14 @@
                       </a>
                     </li>
                       <li>
-                      <a md-ink-ripple href="ui.chart.html">
+                      <a md-ink-ripple href="<?=Yii::app()->createUrl('siguiendo/index');?>">
                         <i class="pull-right up"></i> 
                         <i class="icon mdi-action-favorite i-20"></i>
                         <span class="font-normal">Siguiendo</span>
                       </a>
                     </li>
                       <li>
-                      <a md-ink-ripple href="ui.chart.html">
+                      <a md-ink-ripple href="<?=Yii::app()->createUrl('seguidores/index');?>">
                         <i class="pull-right up"></i> 
                         <i class="icon mdi-action-stars i-20"></i>
                         <span class="font-normal">Seguidores</span>
