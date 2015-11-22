@@ -8,7 +8,7 @@ class PartiesController extends Controller
 	 */
 	public $url_server="/server_party4u";
 	public $layout='//layouts/column2';
-
+	public $uniqueid="Fiestas";
 	/**
 	 * @return array action filters
 	 */

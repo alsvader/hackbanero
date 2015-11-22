@@ -4,9 +4,6 @@
 			<div class="row">
 				<div class="col-sm-8">
 					<div class="card" ng-controller="MDInputCtrl" >
-					  <div class="card-heading">
-					    <h2>Alta Usuario</h2>
-					  </div>
 					  <div class="card-body">
 					  	<?php echo $this->renderPartial('_form', array()); ?>
 					    <div class="row">
