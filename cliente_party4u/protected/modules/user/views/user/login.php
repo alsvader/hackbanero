@@ -13,9 +13,6 @@
       </div>
     </div>
     <div class="p-lg panel md-whiteframe-z1 text-color m">
-      <div class="m-b text-sm">
-        Sign in with your Materil Account
-      </div>
       <form id="form-login" method="post">
         <div class="md-form-group float-label">
           <input type="text" class="md-input" name="UserLogin[username]" required>
