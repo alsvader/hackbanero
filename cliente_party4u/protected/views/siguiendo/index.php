@@ -1,42 +1,93 @@
-<div class="box-row">
-	<div class="box-cell">
-		<div class="box-inner padding">
-			<div class="row row-centered">
-				<div class="col-sm-8 col-centered">
-					<div class="" id="contenido"></div>
-				</div>
+<h1 class = "text-center">Siguiendo</h1>
+<div class = "row">
+	<div class = "col-xs-10 col-xs-offset-1">
+		<div class = "panel panel-card">
+			<div class = "item">
+				<img src = "../images/c1.jpg" class = "w-full r-t" />
+				<div class = "bottom text-white p">Usuario</div>
+			</div>
+			<!--<a class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right waves-effect" md-ink-ripple="">
+				<span class = "text-white">23</span>
+			</a>-->
+			<div class = "p">
+				<h3>alsvader</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua...
+				<button class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">Ver</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class = "col-xs-10 col-xs-offset-1">
+		<div class = "panel panel-card">
+			<div class = "item">
+				<img src = "../images/c1.jpg" class = "w-full r-t" />
+				<div class = "bottom text-white p">Usuario</div>
+			</div>
+			<!--<a class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right waves-effect" md-ink-ripple="">
+				<span class = "text-white">23</span>
+			</a>-->
+			<div class = "p">
+				<h3>alsvader</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua...
+				<button class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">Ver</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class = "col-xs-10 col-xs-offset-1">
+		<div class = "panel panel-card">
+			<div class = "item">
+				<img src = "../images/c1.jpg" class = "w-full r-t" />
+				<div class = "bottom text-white p">Usuario</div>
+			</div>
+			<!--<a class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right waves-effect" md-ink-ripple="">
+				<span class = "text-white">23</span>
+			</a>-->
+			<div class = "p">
+				<h3>alsvader</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua...
+				<button class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">Ver</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class = "col-xs-10 col-xs-offset-1">
+		<div class = "panel panel-card">
+			<div class = "item">
+				<img src = "../images/c1.jpg" class = "w-full r-t" />
+				<div class = "bottom text-white p">Usuario</div>
+			</div>
+			<!--<a class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right waves-effect" md-ink-ripple="">
+				<span class = "text-white">23</span>
+			</a>-->
+			<div class = "p">
+				<h3>alsvader</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua...
+				<button class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">Ver</button>
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class = "col-xs-10 col-xs-offset-1">
+		<div class = "panel panel-card">
+			<div class = "item">
+				<img src = "../images/c1.jpg" class = "w-full r-t" />
+				<div class = "bottom text-white p">Usuario</div>
+			</div>
+			<!--<a class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right waves-effect" md-ink-ripple="">
+				<span class = "text-white">23</span>
+			</a>-->
+			<div class = "p">
+				<h3>alsvader</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua...
+				<button class = "btn btn-rounded btn-stroke btn-info waves-effect pull-right">Ver</button>
+				</p>
 			</div>
 		</div>
 	</div>
 </div>
-<?php
-Yii::app()->clientScript->registerScript(
-	'scritpt-contenido-table',
-	'$.ajax({
-		url: "http://'.$this->url_server.'/hackbanero/server_party4u/follower/siguiendo.html",
-		type: "post",
-		dataType: "jsonp",
-		data: {user_id:'.Yii::app()->user->id.'},
-		success: function(data){
-			$("#contenido").empty();
-			if(data.data.siguiendo!=null){
-				//alert(data.data.siguiendo);
-				console.log(data.data.siguiendo);
-				$("#content_list").show();
-				$.post(
-					"http://'.$this->url_server.'/hackbanero/cliente_party4u/siguiendo/index.html",
-					{data:data.data},
-					function(data){
-						$("#contenido").html(data);
-					}
-				);
-			}else{
-				//console.log("es nulo");
-				$("#content_vacio").show();
-				$("#content_list").hide();
-			}
-		}
-	});',
-	CClientScript::POS_READY
-);
-?>
