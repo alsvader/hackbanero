@@ -7364,3 +7364,93 @@ Stack trace:
 REQUEST_URI=/hackbanero/cliente_party4u/site/images/bg.png
 HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/site/index.html
 ---
+2015/11/22 02:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo.png"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/logo.png')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/logo.png
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/a0.jpg"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/a0.jpg')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/a0.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/a1.jpg"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/a1.jpg')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/a1.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/a3.jpg"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/a3.jpg')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/a3.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:33:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/a2.jpg"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/a2.jpg')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/a2.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:41:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/logo.png"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/logo.png')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/logo.png
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:41:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/a0.jpg"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/a0.jpg')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/a0.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:41:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/a1.jpg"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/a1.jpg')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/a1.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:41:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/a3.jpg"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/a3.jpg')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/a3.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
+2015/11/22 02:41:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'No es posible resolver la solicitud "images/a2.jpg"' in /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /var/www/hackbanero/cliente_party4u/yii-master/framework/web/CWebApplication.php(142): CWebApplication->runController('images/a2.jpg')
+#1 /var/www/hackbanero/cliente_party4u/yii-master/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /var/www/hackbanero/cliente_party4u/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/hackbanero/cliente_party4u/images/a2.jpg
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/index.html
+---
