@@ -28,7 +28,7 @@ class FollowerController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','siguiendo'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -54,6 +54,30 @@ class FollowerController extends Controller
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
+	}
+
+	public function actionSiguiendo()
+	{
+		header('Content-type: application/json');
+		if(isset($_POST['user_id'])){
+			$result=array('correct'=>true,'error'=>false,'msg'=>'success');
+			$model=Follower::model()->findAll("id_user_follower = " . $_POST['user_id']);
+
+			$array = array();
+
+			if (count($model) <= 0) {
+				$model = null;
+			} else {
+				foreach ($model as $value) {
+					array_push($array, array('id' => $value->id, 'siguiendo' => $value->Siguiendo->username));
+				}
+				$model = $array;
+			}
+			$json = CJSON::encode(array('result'=>$result,'data'=>array('siguiendo'=>$model)));
+		}else{
+			$json = CJSON::encode(array('result'=>array('correct'=>false,'error'=>true,'msg'=>'request_invalid'),'data'=>null));
+		}
+		Yii::app()->end($_GET['callback']."(".$json.")",true);
 	}
 
 	/**

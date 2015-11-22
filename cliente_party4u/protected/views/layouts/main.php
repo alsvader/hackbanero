@@ -13,7 +13,19 @@
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/libs/jquery/bootstrap/dist/css/bootstrap.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/font.css" type="text/css" />
   <link rel="stylesheet" href="<?=Yii::app()->baseUrl;?>/assets/styles/app.css" type="text/css" />
-
+  <style type="text/css">
+    .row-centered {
+          text-align:center;
+      }
+      .col-centered {
+          display:inline-block;
+          float:none;
+          /* reset the text-align */
+          text-align:left;
+          /* inline-block space fix */
+          margin-right:-4px;
+      }
+  </style>
 </head>
 <?php $datos= User::model()->findByPk(Yii::app()->user->id);?>
 <body>
@@ -42,7 +54,7 @@
             <div class="box-inner">
               <div class="p hidden-folded blue-50" style="background-image:url(images/bg.png); background-size:cover">
                 <div class="rounded w-64 bg-white inline pos-rlt">
-                  <img src="images/a0.jpg" class="img-responsive rounded">
+                  <img src="<?=Yii::app()->baseUrl.'/images/perfiles/no_disponible.jpg'?>" alt="" class="img-responsive rounded" style="border:3px solid #ccc;">
                 </div>
                 <a class="block m-t-sm" href="#">
                   <span class="block font-bold"><?php echo $datos->username; ?></span>
@@ -52,8 +64,8 @@
               <div id="nav">
                 <nav ui-nav>
                   <ul class="nav">
-                      <li>
-                      <a md-ink-ripple href="ui.chart.html">
+                      <li class="">
+                      <a md-ink-ripple href="<?=Yii::app()->createUrl('home');?>">
                         <i class="pull-right up"></i> 
                         <i class="icon mdi-action-home i-20"></i>
                         <span class="font-normal">Inicio</span>
@@ -74,14 +86,14 @@
                       </a>
                     </li>
                       <li>
-                      <a md-ink-ripple href="ui.chart.html">
+                      <a md-ink-ripple href="<?=Yii::app()->createUrl('siguiendo/index');?>">
                         <i class="pull-right up"></i> 
                         <i class="icon mdi-action-favorite i-20"></i>
                         <span class="font-normal">Siguiendo</span>
                       </a>
                     </li>
                       <li>
-                      <a md-ink-ripple href="ui.chart.html">
+                      <a md-ink-ripple href="<?=Yii::app()->createUrl('seguidores/index');?>">
                         <i class="pull-right up"></i> 
                         <i class="icon mdi-action-stars i-20"></i>
                         <span class="font-normal">Seguidores</span>
@@ -160,7 +172,7 @@
             </a>
             <ul class="dropdown-menu dropdown-menu-scale pull-right pull-up text-color">
               <li>
-                <a href>
+                <a href="<?=Yii::app()->createUrl('perfil');?>">
                   <i class="pull-right up"></i> 
                   <i class="icon mdi-social-person i-20"></i>
                   <span class="font-normal">Perfil</span>

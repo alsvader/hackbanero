@@ -1,11 +1,12 @@
 <div class="box-row">
 	<div class="box-cell">
 		<div class="box-inner padding">
-			<div class="row">
-				<div class="col-sm-8">
+			<div class="row row-centered">
+				<div class="col-sm-10 col-sm-12 col-centered">
 					<div class="" id="contenido"></div>
 				</div>
 			</div>
+			<a href="<?=Yii::app()->createUrl('usuarios/create');?>" class="md-btn md-fab md-fab-bottom-right pos-fix teal"><i class="mdi-social-person-add i-24"></i></a>
 		</div>
 	</div>
 </div>

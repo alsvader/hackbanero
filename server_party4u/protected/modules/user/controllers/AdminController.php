@@ -48,6 +48,11 @@ class AdminController extends Controller
 			$datos=User::model()->findByPk($_POST['user_id']);
 			if($datos->superuser==1){
 				$model = User::model()->findAll();
+				$array=array();
+				foreach($model as $key){
+					array_push($array, array('id'=>$key->id,'username'=>$key->username,'nombres'=>$key->profile->nombres,'paterno'=>$key->profile->apellido_paterno,'materno'=>$key->profile->apellido_materno));
+				}
+				$model=$array;
 				$result=array('correct'=>true,'error'=>false,'msg'=>'success');
 			}else{
 				$model = null;
@@ -297,7 +302,7 @@ class AdminController extends Controller
 			$model->superuser=0;
 			$profile->attributes=$_POST['Profile'];
 			$profile->user_id=0;
-			$profile->id_sub=1;
+			$profile->id_privilegio=2;
 			$profile->foto=null;
 			if($model->validate()&&$profile->validate()){
 				if($model->save()){
