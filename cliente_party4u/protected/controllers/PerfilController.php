@@ -6,7 +6,7 @@ class PerfilController extends Controller
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $url_server="/server_party4u";
+	public $url_server="/hackbanero/server_party4u";
 	public $layout='//layouts/column2';
 
 	/**
@@ -44,6 +44,10 @@ class PerfilController extends Controller
 				'users'=>array('*'),
 			),
 		);
+	}
+
+	public function actionIndex() {
+		$this->render('index',array('datos'=>$datos));
 	}
 
 	/**
@@ -105,17 +109,7 @@ class PerfilController extends Controller
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
 
-	/**
-	 * Lists all models.
-	 */
-	public function actionIndex(){
-		if(isset($_POST['data'])){
-			$this->renderPartial('_index', array('usuarios'=>$_POST['data']['usuarios']));
-		}else{
-			$datos=User::model()->findByPk(Yii::app()->user->id);
-			$this->render('index',array('datos'=>$datos));
-		}
-	}
+	
 
 	/**
 	 * Manages all models.
