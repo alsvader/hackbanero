@@ -5,7 +5,7 @@
 				<div class="col-sm-8">
 					<div class="card" ng-controller="MDInputCtrl" >
 					  <div class="card-body">
-						<form id = "form-party" action = "#" method = "post">
+						<form id = "form-party">
 							<div class="row">
 								<div class="col-md-5">
 									<div class="md-form-group">
@@ -32,18 +32,7 @@
 									</div>
 								</div>
 							</div>
-							<!--
-							<label for = "Fiesta[fecha_ini]"></label>
-							<input type = "date" name = "Fiesta[fecha_ini]" />
-							<br>
-							<label for = "Fiesta[nombre_fiesta]"></label>
-							<input type = "text" name = "Fiesta[maximo_participantes]" />
-							<label for = "Fiesta[min_cuta]"></label>
-							<input type = "text" name = "Fiesta[min_cuta]" />
-							<br>
-							<br>-->
 							<input type="hidden" name = "Fiesta[user_id]" value = "<?php echo Yii::app()->user->id; ?>">
-							<!--<button type = "submit" id = "save">Guardar</button>-->
 						</form>
 					    <div class="row">
 							<div class="col-xs-6">
@@ -66,7 +55,8 @@
 Yii::app()->clientScript->registerScript('crear_usuario','
 	$("body").on("click","#save", function(){
 		//alert("funciona");
-		$.ajax({
+		window.location.href="'.Yii::app()->createUrl('parties').'";
+		/*$.ajax({
 			url: "http://'.$this->url_server.'/hackbanero/server_party4u/fiesta/create.html",
 			type: "post",
 			dataType: "jsonp",
@@ -86,7 +76,7 @@ Yii::app()->clientScript->registerScript('crear_usuario','
 					window.setTimeout(function(){$("#box-redactar-solicitud").addClass("box-danger");}, 1100);
 				}
 			}
-		});
+		});*/
 	});
 	',CCLientScript::POS_END);
 ?>

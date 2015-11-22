@@ -7,13 +7,13 @@
 					<div class = "md-list md-whiteframe-z0 bg-white m-b">
 						<div class = "md-list-item">
 							<div class="rounded w-64 bg-white pull-left">
-			                  <img src="../images/a0.jpg" class="img-responsive rounded">
+			                  <img src="<?=Yii::app()->baseUrl;?>/images/a0.jpg" class="img-responsive rounded">
 			                </div>
 							<div class = "md-list-item-content">
 								<h3 class = "text-md"><?=$fiesta->nombre_fiesta;?></h3>
 								<small class = "font-thin"><?=$fiesta->idUser->username;?></small>
 								<p>Necesita: $<?=$fiesta->min_cuota;?>.00</p>
-								<p>Monto recaudado: $<?=$fiesta->?></p>
+								<p>Monto recaudado: $200</p>
 								<div class = "progress">
 									<div class = "progress-bar progress-bar-info" style="width:30%">30%</div>
 								</div>
@@ -28,7 +28,7 @@
 					<div class = "md-list md-whiteframe-z0 bg-white m-b">
 						<div class = "md-list-item">
 							<div class="rounded w-64 bg-white pull-left">
-			                  <img src="../images/a0.jpg" class="img-responsive rounded">
+			                  <img src="<?=Yii::app()->baseUrl;?>/images/a0.jpg" class="img-responsive rounded">
 			                </div>
 							<div class = "md-list-item-content">
 								<h3 class = "text-md">Extreme pool party</h3>
@@ -48,7 +48,7 @@
 					<div class = "md-list md-whiteframe-z0 bg-white m-b">
 						<div class = "md-list-item">
 							<div class="rounded w-64 bg-white pull-left">
-			                  <img src="../images/a0.jpg" class="img-responsive rounded">
+			                  <img src="<?=Yii::app()->baseUrl;?>/images/a0.jpg" class="img-responsive rounded">
 			                </div>
 							<div class = "md-list-item-content">
 								<h3 class = "text-md">Escalofríos night</h3>
@@ -68,7 +68,7 @@
 					<div class = "md-list md-whiteframe-z0 bg-white m-b">
 						<div class = "md-list-item">
 							<div class="rounded w-64 bg-white pull-left">
-			                  <img src="../images/a0.jpg" class="img-responsive rounded">
+			                  <img src="<?=Yii::app()->baseUrl;?>/images/a0.jpg" class="img-responsive rounded">
 			                </div>
 							<div class = "md-list-item-content">
 								<h3 class = "text-md">The cool zombie party</h3>
@@ -88,7 +88,7 @@
 					<div class = "md-list md-whiteframe-z0 bg-white m-b">
 						<div class = "md-list-item">
 							<div class="rounded w-64 bg-white pull-left">
-			                  <img src="../images/a0.jpg" class="img-responsive rounded">
+			                  <img src="<?=Yii::app()->baseUrl;?>/images/a0.jpg" class="img-responsive rounded">
 			                </div>
 							<div class = "md-list-item-content">
 								<h3 class = "text-md">Jason's ultimate party</h3>
