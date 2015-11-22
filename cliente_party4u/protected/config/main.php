@@ -70,10 +70,10 @@ $config = array(
 			/*'connectionString' => 'mysql:host=sql5.freemysqlhosting.net;dbname=sql597320',
 			'username' => 'sql597320',
 			'password' => 'jV4%zI6*',*/
-			'connectionString' => 'mysql:host=sql5.freemysqlhosting.net;dbname=sql597320',
+			'connectionString' => 'mysql:host=localhost;dbname=party4u',
 			'emulatePrepare' => true,
-			'username' => 'sql597320',
-			'password' => 'jV4%zI6*',
+			'username' => 'root',
+			'password' => 'root',
 			'charset' => 'utf8',
 			'tablePrefix' => '',
 		),
