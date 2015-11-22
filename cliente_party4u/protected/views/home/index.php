@@ -12,7 +12,6 @@
 						            PARTY
 						          </div>
 						        </div>
-						        <a md-ink-ripple class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right"><span class="text-white">23</span></a>
 						        <div class="p">
 						          <h3>PEPE's AFTER PARTY</h3>
 						          <p>
@@ -30,7 +29,6 @@
 						            PARTY
 						          </div>
 						        </div>
-						        <a md-ink-ripple class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right"><span class="text-white">23</span></a>
 						        <div class="p">
 						          <h3>XTREME POOL PARTY</h3>
 						          <p>
@@ -48,7 +46,6 @@
 						            PARTY
 						          </div>
 						        </div>
-						        <a md-ink-ripple class="md-btn md-raised md-fab brown m-r md-fab-offset pull-right"><span class="text-white">23</span></a>
 						        <div class="p">
 						          <h3>ESCALOFRÍOS NIGHT</h3>
 						          <p>
