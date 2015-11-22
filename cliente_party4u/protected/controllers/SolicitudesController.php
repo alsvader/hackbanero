@@ -8,7 +8,7 @@ class SolicitudesController extends Controller
 	 */
 	public $url_server = "localhost";
 	public $layout='//layouts/column2';
-	public $url_server="hackbanero/server_party4u";
+	public $url_server="/server_party4u";
 	/**
 	 * @return array action filters
 	 */
