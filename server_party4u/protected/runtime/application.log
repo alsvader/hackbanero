@@ -534,3 +534,47 @@ in C:\AppServ\www\server_gar\index.php (14)
 in C:\AppServ\www\server_gar\protected\modules\user\components\UActiveRecord.php (29)
 in C:\AppServ\www\server_gar\protected\modules\user\controllers\AdminController.php (281)
 in C:\AppServ\www\server_gar\index.php (14)
+2015/11/22 02:39:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('index')
+#1 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(283): CController->run('index')
+#2 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin/inde...')
+#3 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\hackbanero\server_party4u\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/server_party4u/user/admin/index.html?callback=jQuery21409836680963635445_1448181568054
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+2015/11/22 02:39:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('index')
+#1 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(283): CController->run('index')
+#2 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin/inde...')
+#3 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\hackbanero\server_party4u\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/server_party4u/user/admin/index.html?callback=jQuery21405483826748095453_1448181577863
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+2015/11/22 02:41:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('index')
+#1 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(283): CController->run('index')
+#2 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin/inde...')
+#3 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\hackbanero\server_party4u\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/server_party4u/user/admin/index.html?callback=jQuery2140046947833616286516_1448181700570
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
+2015/11/22 02:43:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'El sistema no ha podido encontrar la acción "index" solicitada.' in C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php:484
+Stack trace:
+#0 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CController.php(271): CController->missingAction('index')
+#1 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(283): CController->run('index')
+#2 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin/inde...')
+#3 C:\AppServ\www\hackbanero\server_party4u\yii-master\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\AppServ\www\hackbanero\server_party4u\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/hackbanero/server_party4u/user/admin/index.html?callback=jQuery21407998206908814609_1448181833251
+HTTP_REFERER=http://localhost/hackbanero/cliente_party4u/usuarios/index.html
+---
